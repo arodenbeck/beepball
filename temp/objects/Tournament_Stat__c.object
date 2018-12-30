@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Standard_TS_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Standard_TS_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Contact__c</fields>
+        <fields>Games__c</fields>
+        <fields>Batting_Average__c</fields>
+        <fields>Strike_Out_Percentage__c</fields>
+        <fields>Put_Outs_Per_Game__c</fields>
+        <fields>At_Bats__c</fields>
+        <fields>Runs__c</fields>
+        <fields>Put_Outs__c</fields>
+        <label>Standard TS Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Holds final tournament statistics for each player.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>At_Bats__c</fullName>
+        <description>The number of times a player has been at bat.</description>
+        <externalId>false</externalId>
+        <label>At Bats</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Batting_Average__c</fullName>
+        <description>The batting average earned.</description>
+        <externalId>false</externalId>
+        <formula>Runs__c 
+ /  At_Bats__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Batting Average</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Links to the contact of the team member.</description>
+        <externalId>false</externalId>
+        <label>Member Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Tournament Stats</relationshipLabel>
+        <relationshipName>Tournament_Stats</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Games__c</fullName>
+        <description>The number of games a player participated in.</description>
+        <externalId>false</externalId>
+        <label>Games</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Member__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The lookup relationship to the member object.</description>
+        <externalId>false</externalId>
+        <label>Membership</label>
+        <referenceTo>Member__c</referenceTo>
+        <relationshipLabel>Tournament Stats</relationshipLabel>
+        <relationshipName>Tournament_Stats</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Player_Name__c</fullName>
+        <description>The name of the player</description>
+        <externalId>false</externalId>
+        <label>Player Name</label>
+        <length>40</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Put_Outs_Per_Game__c</fullName>
+        <description>Average number of put outs per game.</description>
+        <externalId>false</externalId>
+        <formula>Put_Outs__c 
+ /  Games__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Put Outs Per Game</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Put_Outs__c</fullName>
+        <description>The number of put outs a player has earned.</description>
+        <externalId>false</externalId>
+        <label>Put Outs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Runs__c</fullName>
+        <description>The number of runs scored.</description>
+        <externalId>false</externalId>
+        <label>Runs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Strike_Out_Percentage__c</fullName>
+        <description>The strike percentage</description>
+        <externalId>false</externalId>
+        <formula>Strike_Outs__c 
+ /  At_Bats__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Strike Out Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Strike_Outs__c</fullName>
+        <description>The number of times a player strikes out.</description>
+        <externalId>false</externalId>
+        <label>Strike Outs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_Name__c</fullName>
+        <description>Name of the player&apos;s team.</description>
+        <externalId>false</externalId>
+        <label>Team Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The team to which this tournament stat is applied.</description>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <referenceTo>Team__c</referenceTo>
+        <relationshipLabel>Tournament Stats</relationshipLabel>
+        <relationshipName>Tournament_Stats</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tournament__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The tournament to which this stat applies.</description>
+        <externalId>false</externalId>
+        <label>Tournament</label>
+        <referenceTo>Tournament__c</referenceTo>
+        <relationshipLabel>Tournament Stats</relationshipLabel>
+        <relationshipName>Tournament_Stats</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Year__c</fullName>
+        <description>The year of this tournament</description>
+        <externalId>false</externalId>
+        <label>Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Tournament Stat</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Contact__c</columns>
+        <columns>Team__c</columns>
+        <columns>Games__c</columns>
+        <columns>Batting_Average__c</columns>
+        <columns>Put_Outs_Per_Game__c</columns>
+        <columns>Strike_Out_Percentage__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contact__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Stats</fullName>
+        <columns>NAME</columns>
+        <columns>Contact__c</columns>
+        <columns>Team__c</columns>
+        <columns>Games__c</columns>
+        <columns>Batting_Average__c</columns>
+        <columns>Put_Outs_Per_Game__c</columns>
+        <columns>Strike_Out_Percentage__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Contact__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Stats</label>
+    </listViews>
+    <listViews>
+        <fullName>X2016_Stats</fullName>
+        <columns>NAME</columns>
+        <columns>Contact__c</columns>
+        <columns>Team__c</columns>
+        <columns>Games__c</columns>
+        <columns>Batting_Average__c</columns>
+        <columns>Put_Outs_Per_Game__c</columns>
+        <columns>Strike_Out_Percentage__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Year__c</field>
+            <operation>equals</operation>
+            <value>2016</value>
+        </filters>
+        <label>2016 Stats</label>
+    </listViews>
+    <nameField>
+        <label>Tournament Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Tournament Stats</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
+        <listViewButtons>Process_Selected_Stats</listViewButtons>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Team_Name__c</searchFilterFields>
+        <searchFilterFields>Year__c</searchFilterFields>
+        <searchFilterFields>Member__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Process_Selected_Stats</fullName>
+        <availability>online</availability>
+        <description>Processes the selected stats to match them with their related Team, Membership, and contact records.</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Process Selected Stats</masterLabel>
+        <openType>sidebar</openType>
+        <page>ProcessTournamentStats</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

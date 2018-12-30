@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Game_Stat</fullName>
+    <fields>Number__c</fields>
+    <fields>Player_Name__c</fields>
+    <fields>At_Bats__c</fields>
+    <fields>Batting_Average__c</fields>
+    <fields>Runs__c</fields>
+    <fields>Strike_Outs__c</fields>
+    <fields>Put_Outs__c</fields>
+    <label>Standard Game Stat</label>
+</CompactLayout>

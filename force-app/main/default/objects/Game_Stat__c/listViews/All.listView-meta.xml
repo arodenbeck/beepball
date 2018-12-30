@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Game__c</columns>
+    <columns>Number__c</columns>
+    <columns>Player_Name__c</columns>
+    <columns>At_Bats__c</columns>
+    <columns>Runs__c</columns>
+    <columns>Strike_Outs__c</columns>
+    <columns>Put_Outs__c</columns>
+    <columns>Batting_Average__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

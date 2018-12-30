@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Selected_Stats</fullName>
+    <availability>online</availability>
+    <description>Processes the selected stats to match them with their related Team, Membership, and contact records.</description>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Process Selected Stats</masterLabel>
+    <openType>sidebar</openType>
+    <page>ProcessTournamentStats</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

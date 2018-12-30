@@ -1,0 +1,10 @@
+<apex:page standardController="Tournament_Stat__c" recordSetVar="stats" extensions="TournamentStatListController" >
+  <apex:dataList id="selectedStats" value="{!selected}" var="stat" >
+    <apex:outputText value="{!stat.Name}" />
+  </apex:dataList>
+  <apex:form id="formOk">
+    <apex:panelGrid columns="2">
+      <apex:commandButton action="{!submitStats}" value="OK" />
+    </apex:panelGrid>
+  </apex:form>
+</apex:page>
