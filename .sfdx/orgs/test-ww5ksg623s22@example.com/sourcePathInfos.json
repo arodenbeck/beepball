@@ -1,0 +1,3671 @@
+[
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544861919619,
+            "changeTime": 1544861919619,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544861919619,
+            "changeTime": 1544861919619,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792198,
+            "changeTime": 1546203792198,
+            "contentHash": "20ecc25d68ec5070a6655cf749f965a21e7aad7d"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862518688,
+            "changeTime": 1544862518688,
+            "contentHash": "1510db0b7fe6700c0e42bbe119a9b1ecb7b53eaf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications\\Beepball.app-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications\\Beepball.app-meta.xml",
+            "isDirectory": false,
+            "size": 627,
+            "modifiedTime": 1544862518689,
+            "changeTime": 1544862518689,
+            "contentHash": "d4c66e7e9ec3aa9167252973ff4c668f6849e014",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544861919619,
+            "changeTime": 1544861919619,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519342,
+            "changeTime": 1544862519342,
+            "contentHash": "c43828b2d9d7a16263feb30487d2d474fa9dbfd0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\ContactService.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\ContactService.cls",
+            "isDirectory": false,
+            "size": 5928,
+            "modifiedTime": 1544862518696,
+            "changeTime": 1544862518696,
+            "contentHash": "5ebbdc310b58d047109d0841ea43aa4caf94c972",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\ContactService.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\ContactService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518693,
+            "changeTime": 1544862518693,
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Answer.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Answer.cls",
+            "isDirectory": false,
+            "size": 547,
+            "modifiedTime": 1544862518751,
+            "changeTime": 1544862518751,
+            "contentHash": "98a5b92da13fbbee640ecb4121304fa5b874f70d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Answer.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Answer.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518749,
+            "changeTime": 1544862518749,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnswerTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnswerTest.cls",
+            "isDirectory": false,
+            "size": 14051,
+            "modifiedTime": 1544862518766,
+            "changeTime": 1544862518766,
+            "contentHash": "ec5816baaa0fe7037bd25b35c5282dc8765a574c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnswerTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnswerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518755,
+            "changeTime": 1544862518755,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrder.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrder.cls",
+            "isDirectory": false,
+            "size": 3294,
+            "modifiedTime": 1544862518772,
+            "changeTime": 1544862518772,
+            "contentHash": "cb3936e0c1e627818d95dac39179cd99360b680e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrder.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrder.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518769,
+            "changeTime": 1544862518769,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrderTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrderTest.cls",
+            "isDirectory": false,
+            "size": 31460,
+            "modifiedTime": 1544862518792,
+            "changeTime": 1544862518792,
+            "contentHash": "9e72478167d24f0935e6bec635a7c5e3b7796360",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrderTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_AnyOrderTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518775,
+            "changeTime": 1544862518775,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocks.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocks.cls",
+            "isDirectory": false,
+            "size": 13820,
+            "modifiedTime": 1544862518805,
+            "changeTime": 1544862518805,
+            "contentHash": "77fa56306a2cbfa10d1ba562694824da8d25a79b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocks.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocks.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518795,
+            "changeTime": 1544862518795,
+            "contentHash": "d3aef1962f612e7e3db36e965fa06b72bf50ee30",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksConfig.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksConfig.cls",
+            "isDirectory": false,
+            "size": 612,
+            "modifiedTime": 1544862518810,
+            "changeTime": 1544862518810,
+            "contentHash": "5703134f45be1f6db74a828ae20b9c4176f0a7aa",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksConfig.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksConfig.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518808,
+            "changeTime": 1544862518808,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksTest.cls",
+            "isDirectory": false,
+            "size": 46232,
+            "modifiedTime": 1544862518827,
+            "changeTime": 1544862518827,
+            "contentHash": "31d0a2f0ad30bebf7d9251941c438650c30a8594",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518814,
+            "changeTime": 1544862518814,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtils.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtils.cls",
+            "isDirectory": false,
+            "size": 7173,
+            "modifiedTime": 1544862518833,
+            "changeTime": 1544862518833,
+            "contentHash": "b7c815d85d0e52efc3fd627918fd20fb9fbf94e1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtils.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtils.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518830,
+            "changeTime": 1544862518830,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtilsTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtilsTest.cls",
+            "isDirectory": false,
+            "size": 3261,
+            "modifiedTime": 1544862518838,
+            "changeTime": 1544862518838,
+            "contentHash": "2ddbee2ba5631a8c273f16fe45344253828d1c12",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtilsTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApexMocksUtilsTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518836,
+            "changeTime": 1544862518836,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Application.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Application.cls",
+            "isDirectory": false,
+            "size": 14217,
+            "modifiedTime": 1544862518853,
+            "changeTime": 1544862518853,
+            "contentHash": "cf0d20f963a58c3bd858efee52ec7d65ac0a14fb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Application.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Application.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518841,
+            "changeTime": 1544862518841,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApplicationTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApplicationTest.cls",
+            "isDirectory": false,
+            "size": 17889,
+            "modifiedTime": 1544862518867,
+            "changeTime": 1544862518867,
+            "contentHash": "db127423c73ee3237a8ff13afe0d91d3c4dab0f0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApplicationTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ApplicationTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518856,
+            "changeTime": 1544862518856,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptor.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptor.cls",
+            "isDirectory": false,
+            "size": 4667,
+            "modifiedTime": 1544862518873,
+            "changeTime": 1544862518873,
+            "contentHash": "abd231eaff6d52ae9ad65cfd04e2508de2727978",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptor.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptor.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518871,
+            "changeTime": 1544862518871,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptorTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptorTest.cls",
+            "isDirectory": false,
+            "size": 23560,
+            "modifiedTime": 1544862518890,
+            "changeTime": 1544862518890,
+            "contentHash": "7286474a8d78532a650a29c22a947d13a009cc4f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptorTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ArgumentCaptorTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518877,
+            "changeTime": 1544862518877,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGenerator.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGenerator.cls",
+            "isDirectory": false,
+            "size": 2105,
+            "modifiedTime": 1544862518897,
+            "changeTime": 1544862518897,
+            "contentHash": "b2f3cfa466476dd9ca22c4ac25a76ccfbde02747",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGenerator.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGenerator.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518894,
+            "changeTime": 1544862518894,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGeneratorTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGeneratorTest.cls",
+            "isDirectory": false,
+            "size": 2956,
+            "modifiedTime": 1544862518903,
+            "changeTime": 1544862518903,
+            "contentHash": "66338d63b6d1e88bf8b386c4fdaecf9a9f96847a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGeneratorTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IDGeneratorTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518901,
+            "changeTime": 1544862518901,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IMatcher.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IMatcher.cls",
+            "isDirectory": false,
+            "size": 1991,
+            "modifiedTime": 1544862518910,
+            "changeTime": 1544862518910,
+            "contentHash": "d89b550b11748db62bcf167df9a74403688f663b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IMatcher.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_IMatcher.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518907,
+            "changeTime": 1544862518907,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Inheritor.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Inheritor.cls",
+            "isDirectory": false,
+            "size": 383,
+            "modifiedTime": 1544862518977,
+            "changeTime": 1544862518977,
+            "contentHash": "6c28affa022b2d2463e9cc0f0072985d4614668f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Inheritor.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Inheritor.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518975,
+            "changeTime": 1544862518975,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InheritorTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InheritorTest.cls",
+            "isDirectory": false,
+            "size": 1191,
+            "modifiedTime": 1544862518983,
+            "changeTime": 1544862518983,
+            "contentHash": "81ff87a4b511b8e8c9921df84ab6913701bc5fbc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InheritorTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InheritorTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518981,
+            "changeTime": 1544862518981,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrder.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrder.cls",
+            "isDirectory": false,
+            "size": 10614,
+            "modifiedTime": 1544862518948,
+            "changeTime": 1544862518948,
+            "contentHash": "8c26cf87d012770a7bf70b9e4b290c39c3013816",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrder.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrder.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518937,
+            "changeTime": 1544862518937,
+            "contentHash": "1815897e4153cdd58e7871abb1f4a7b0541f0340",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrderTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrderTest.cls",
+            "isDirectory": false,
+            "size": 56913,
+            "modifiedTime": 1544862518971,
+            "changeTime": 1544862518971,
+            "contentHash": "ce4b9fb87a0f3ac336abca7c46e57fe631cc51b6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrderTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InOrderTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518954,
+            "changeTime": 1544862518954,
+            "contentHash": "1815897e4153cdd58e7871abb1f4a7b0541f0340",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InvocationOnMock.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InvocationOnMock.cls",
+            "isDirectory": false,
+            "size": 2266,
+            "modifiedTime": 1544862518990,
+            "changeTime": 1544862518990,
+            "contentHash": "4322dc533ff9cb22ea098337916a907e80e4dee9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InvocationOnMock.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_InvocationOnMock.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518987,
+            "changeTime": 1544862518987,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectDomain.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectDomain.cls",
+            "isDirectory": false,
+            "size": 729,
+            "modifiedTime": 1544862518916,
+            "changeTime": 1544862518916,
+            "contentHash": "e8c6c92826b714ce4f6740f37430d85d46fe019f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectDomain.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectDomain.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518913,
+            "changeTime": 1544862518913,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectSelector.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectSelector.cls",
+            "isDirectory": false,
+            "size": 761,
+            "modifiedTime": 1544862518922,
+            "changeTime": 1544862518922,
+            "contentHash": "72664c831bce00a512920e01c994fa2fea22e01f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectSelector.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectSelector.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518920,
+            "changeTime": 1544862518920,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectUnitOfWork.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectUnitOfWork.cls",
+            "isDirectory": false,
+            "size": 4819,
+            "modifiedTime": 1544862518931,
+            "changeTime": 1544862518931,
+            "contentHash": "662562b1d99bd9be24baafc69fc813fa95bb4fa2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectUnitOfWork.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_ISObjectUnitOfWork.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518928,
+            "changeTime": 1544862518928,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Match.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Match.cls",
+            "isDirectory": false,
+            "size": 51836,
+            "modifiedTime": 1544862519004,
+            "changeTime": 1544862519004,
+            "contentHash": "d2fe726cf052850ac6d4fd775bf2af064461455f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Match.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Match.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518993,
+            "changeTime": 1544862518993,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitions.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitions.cls",
+            "isDirectory": false,
+            "size": 25791,
+            "modifiedTime": 1544862519039,
+            "changeTime": 1544862519039,
+            "contentHash": "7d1750e90722811d7468a0aa09965e712af864be",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitions.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitions.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519024,
+            "changeTime": 1544862519024,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitionsTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitionsTest.cls",
+            "isDirectory": false,
+            "size": 34815,
+            "modifiedTime": 1544862519051,
+            "changeTime": 1544862519051,
+            "contentHash": "d2d9e7c67f3466999e88c871bafe1a21334dd97b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitionsTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatcherDefinitionsTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519043,
+            "changeTime": 1544862519043,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchersReturnValue.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchersReturnValue.cls",
+            "isDirectory": false,
+            "size": 1906,
+            "modifiedTime": 1544862519056,
+            "changeTime": 1544862519056,
+            "contentHash": "fc5cb467b4de931a4769a0923c5c8f78a513c4ed",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchersReturnValue.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchersReturnValue.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519054,
+            "changeTime": 1544862519054,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchTest.cls",
+            "isDirectory": false,
+            "size": 42085,
+            "modifiedTime": 1544862519020,
+            "changeTime": 1544862519020,
+            "contentHash": "5ffa0a2f06bf444d8c8a29966d3ebc1583d2fc7d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MatchTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519008,
+            "changeTime": 1544862519008,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValues.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValues.cls",
+            "isDirectory": false,
+            "size": 2670,
+            "modifiedTime": 1544862519062,
+            "changeTime": 1544862519062,
+            "contentHash": "0d6a774b26f6699ce36b5fed967549d1c6baeaa5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValues.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValues.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519060,
+            "changeTime": 1544862519060,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValuesTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValuesTest.cls",
+            "isDirectory": false,
+            "size": 4787,
+            "modifiedTime": 1544862519069,
+            "changeTime": 1544862519069,
+            "contentHash": "2ad2094ea39d370f60eac14d8538e534dc1f2e91",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValuesTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodArgValuesTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519066,
+            "changeTime": 1544862519066,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodCountRecorder.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodCountRecorder.cls",
+            "isDirectory": false,
+            "size": 1704,
+            "modifiedTime": 1544862519074,
+            "changeTime": 1544862519074,
+            "contentHash": "427562f624cdefd0dea5ea59180e05518cef6c1b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodCountRecorder.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodCountRecorder.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519072,
+            "changeTime": 1544862519072,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValue.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValue.cls",
+            "isDirectory": false,
+            "size": 5484,
+            "modifiedTime": 1544862519081,
+            "changeTime": 1544862519081,
+            "contentHash": "f9e8b94bdfbe01565b86ce48c41e0e739cb8696c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValue.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValue.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519079,
+            "changeTime": 1544862519079,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValueRecorder.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValueRecorder.cls",
+            "isDirectory": false,
+            "size": 4497,
+            "modifiedTime": 1544862519086,
+            "changeTime": 1544862519086,
+            "contentHash": "90e4b3791ce7f4c3dde316402e6d1b92c9b17066",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValueRecorder.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodReturnValueRecorder.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519085,
+            "changeTime": 1544862519085,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodVerifier.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodVerifier.cls",
+            "isDirectory": false,
+            "size": 2823,
+            "modifiedTime": 1544862519092,
+            "changeTime": 1544862519092,
+            "contentHash": "23ef3c269afed1a5f55a542cff117fd149fe7947",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodVerifier.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MethodVerifier.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519090,
+            "changeTime": 1544862519090,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Mocks.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Mocks.cls",
+            "isDirectory": false,
+            "size": 1922,
+            "modifiedTime": 1544862519097,
+            "changeTime": 1544862519097,
+            "contentHash": "a6b524ca243e5b061764e1e038829ec38c195155",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Mocks.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_Mocks.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519095,
+            "changeTime": 1544862519095,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MyList.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MyList.cls",
+            "isDirectory": false,
+            "size": 1257,
+            "modifiedTime": 1544862519103,
+            "changeTime": 1544862519103,
+            "contentHash": "0efffcaf9da9321b3cbe41663e85510b0987661d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MyList.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_MyList.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519101,
+            "changeTime": 1544862519101,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethod.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethod.cls",
+            "isDirectory": false,
+            "size": 2061,
+            "modifiedTime": 1544862519109,
+            "changeTime": 1544862519109,
+            "contentHash": "c1ed0fcf1b6ada21281213dbe7f3f55c991a89b6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethod.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethod.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519106,
+            "changeTime": 1544862519106,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodAndArgValues.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodAndArgValues.cls",
+            "isDirectory": false,
+            "size": 805,
+            "modifiedTime": 1544862519115,
+            "changeTime": 1544862519115,
+            "contentHash": "30446e5b2addab322c294957ee3214c5f2533b33",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodAndArgValues.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodAndArgValues.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519113,
+            "changeTime": 1544862519113,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodTest.cls",
+            "isDirectory": false,
+            "size": 6191,
+            "modifiedTime": 1544862519121,
+            "changeTime": 1544862519121,
+            "contentHash": "ff39073eca6fbe94e6b9d03df536f62a9b50e81a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QualifiedMethodTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519118,
+            "changeTime": 1544862519118,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactory.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactory.cls",
+            "isDirectory": false,
+            "size": 30745,
+            "modifiedTime": 1544862519134,
+            "changeTime": 1544862519134,
+            "contentHash": "494188256a94632745a6e4add4d9bf510c43d1c5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactory.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactory.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519124,
+            "changeTime": 1544862519124,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactoryTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactoryTest.cls",
+            "isDirectory": false,
+            "size": 30089,
+            "modifiedTime": 1544862519152,
+            "changeTime": 1544862519152,
+            "contentHash": "2f7c31d20bd7fb4d13702afcbc691177d0e75a7b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactoryTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_QueryFactoryTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519139,
+            "changeTime": 1544862519139,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtils.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtils.cls",
+            "isDirectory": false,
+            "size": 14994,
+            "modifiedTime": 1544862519296,
+            "changeTime": 1544862519296,
+            "contentHash": "e22ffb3e77f9b147aeead502a0b69f64687cc1e1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtils.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtils.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519280,
+            "changeTime": 1544862519280,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtilsTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtilsTest.cls",
+            "isDirectory": false,
+            "size": 9197,
+            "modifiedTime": 1544862519313,
+            "changeTime": 1544862519313,
+            "contentHash": "d592a07491e9046860501cb92ef80df2e4ff3b50",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtilsTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SecurityUtilsTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519300,
+            "changeTime": 1544862519300,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribe.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribe.cls",
+            "isDirectory": false,
+            "size": 12963,
+            "modifiedTime": 1544862519166,
+            "changeTime": 1544862519166,
+            "contentHash": "b2992ff8c23ed013b70e4223570c221da03ea91c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribe.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribe.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519155,
+            "changeTime": 1544862519155,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribeTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribeTest.cls",
+            "isDirectory": false,
+            "size": 8774,
+            "modifiedTime": 1544862519182,
+            "changeTime": 1544862519182,
+            "contentHash": "365a0066478e634a86bcab894bcde61c11da24e9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribeTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDescribeTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519170,
+            "changeTime": 1544862519170,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomain.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomain.cls",
+            "isDirectory": false,
+            "size": 33028,
+            "modifiedTime": 1544862519196,
+            "changeTime": 1544862519196,
+            "contentHash": "f8b17af9f7c4d1539e6d226b3dd2fbbdf2bd14dd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomain.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomain.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519186,
+            "changeTime": 1544862519186,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomainTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomainTest.cls",
+            "isDirectory": false,
+            "size": 18236,
+            "modifiedTime": 1544862519209,
+            "changeTime": 1544862519209,
+            "contentHash": "de8642c4c583239c303dd9fa7adc995cc9da990f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomainTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectDomainTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519200,
+            "changeTime": 1544862519200,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectMocks.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectMocks.cls",
+            "isDirectory": false,
+            "size": 4000,
+            "modifiedTime": 1544862519215,
+            "changeTime": 1544862519215,
+            "contentHash": "c74b52be5f08dece2cb9e90d6596aec2dde65974",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectMocks.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectMocks.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519213,
+            "changeTime": 1544862519213,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelector.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelector.cls",
+            "isDirectory": false,
+            "size": 15302,
+            "modifiedTime": 1544862519230,
+            "changeTime": 1544862519230,
+            "contentHash": "7b05f5470a75195f7c38312c58635b5bf102e178",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelector.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelector.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519218,
+            "changeTime": 1544862519218,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelectorTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelectorTest.cls",
+            "isDirectory": false,
+            "size": 11259,
+            "modifiedTime": 1544862519244,
+            "changeTime": 1544862519244,
+            "contentHash": "5fc8fdf7ca71a194638779a0726898fe8fb32b93",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelectorTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectSelectorTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519234,
+            "changeTime": 1544862519234,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWork.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWork.cls",
+            "isDirectory": false,
+            "size": 18931,
+            "modifiedTime": 1544862519259,
+            "changeTime": 1544862519259,
+            "contentHash": "d27ab16b9c6eda134270a89f168d3a4dbc1f3f38",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWork.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWork.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519248,
+            "changeTime": 1544862519248,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWorkTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWorkTest.cls",
+            "isDirectory": false,
+            "size": 20031,
+            "modifiedTime": 1544862519275,
+            "changeTime": 1544862519275,
+            "contentHash": "19d09aa844e4980b68037fcc83eea1b753ccb83f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWorkTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SObjectUnitOfWorkTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519264,
+            "changeTime": 1544862519264,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilder.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilder.cls",
+            "isDirectory": false,
+            "size": 4894,
+            "modifiedTime": 1544862519320,
+            "changeTime": 1544862519320,
+            "contentHash": "8f41b2280251491e4f887d06d011a595c553871a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilder.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilder.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519317,
+            "changeTime": 1544862519317,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilderTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilderTest.cls",
+            "isDirectory": false,
+            "size": 5588,
+            "modifiedTime": 1544862519325,
+            "changeTime": 1544862519325,
+            "contentHash": "5d894b0a09d1c8a187128430317cf5b17657bdf6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilderTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_StringBuilderTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519323,
+            "changeTime": 1544862519323,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_System.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_System.cls",
+            "isDirectory": false,
+            "size": 1868,
+            "modifiedTime": 1544862519331,
+            "changeTime": 1544862519331,
+            "contentHash": "971b99357a5dbfd7061653347c6a3bfe563e19ff",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_System.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_System.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519329,
+            "changeTime": 1544862519329,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SystemTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SystemTest.cls",
+            "isDirectory": false,
+            "size": 4203,
+            "modifiedTime": 1544862519337,
+            "changeTime": 1544862519337,
+            "contentHash": "850da8e18c645fca33ff5f5a2d7afbb81a81d5b1",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SystemTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_SystemTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519335,
+            "changeTime": 1544862519335,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_VerificationMode.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_VerificationMode.cls",
+            "isDirectory": false,
+            "size": 4921,
+            "modifiedTime": 1544862519350,
+            "changeTime": 1544862519350,
+            "contentHash": "9804e934624f28502849571944ada398469bf118",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_VerificationMode.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\fflib_VerificationMode.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862519340,
+            "changeTime": 1544862519340,
+            "contentHash": "7c5945136a59f83dacd1f358b3f57ec242ee7bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipService.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipService.cls",
+            "isDirectory": false,
+            "size": 6915,
+            "modifiedTime": 1544862518704,
+            "changeTime": 1544862518704,
+            "contentHash": "7e56a4a92bc14b635d8361dad6c85bd60b2495d3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipService.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518701,
+            "changeTime": 1544862518701,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipServiceTest.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipServiceTest.cls",
+            "isDirectory": false,
+            "size": 2071,
+            "modifiedTime": 1544862518714,
+            "changeTime": 1544862518714,
+            "contentHash": "eed1ac3062774337532783494f42ac9b6edd42b5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipServiceTest.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\MembershipServiceTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518710,
+            "changeTime": 1544862518710,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TeamService.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TeamService.cls",
+            "isDirectory": false,
+            "size": 5010,
+            "modifiedTime": 1544862518720,
+            "changeTime": 1544862518720,
+            "contentHash": "ea073253ccb2f78b9f66c36a167d4cb8b0e6ecdc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TeamService.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TeamService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518718,
+            "changeTime": 1544862518718,
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentService.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentService.cls",
+            "isDirectory": false,
+            "size": 4463,
+            "modifiedTime": 1544862518727,
+            "changeTime": 1544862518727,
+            "contentHash": "e485c5565a7716325470cdb9bb00aef3cb25bb12",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentService.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518724,
+            "changeTime": 1544862518724,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatBatchProcess.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatBatchProcess.cls",
+            "isDirectory": false,
+            "size": 2251,
+            "modifiedTime": 1544862518733,
+            "changeTime": 1544862518733,
+            "contentHash": "5f6a3d0ff1079133620407fc5e580b301fb90d54",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatBatchProcess.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatBatchProcess.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518730,
+            "changeTime": 1544862518730,
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatListController.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatListController.cls",
+            "isDirectory": false,
+            "size": 892,
+            "modifiedTime": 1544862518740,
+            "changeTime": 1544862518740,
+            "contentHash": "e4a2ac19204ec2d9f201bfb3b0d6daa89bac179e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatListController.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatListController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518738,
+            "changeTime": 1544862518738,
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatService.cls",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatService.cls",
+            "isDirectory": false,
+            "size": 1549,
+            "modifiedTime": 1544862518746,
+            "changeTime": 1544862518746,
+            "contentHash": "8247fbe39005751f1e9bbabd266da245c924d893",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatService.cls-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\classes\\TournamentStatService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1544862518744,
+            "changeTime": 1544862518744,
+            "contentHash": "b2f04e173ae3fcb8d002e0a2c63d07860dbf1d04",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\flexipages",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\flexipages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519359,
+            "changeTime": 1544862519359,
+            "contentHash": "75489c40ca5ba2a0e0addf835177d84bd5d30a50",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\flexipages\\Tournament.flexipage-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\flexipages\\Tournament.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 5227,
+            "modifiedTime": 1545287407555,
+            "changeTime": 1545287407555,
+            "contentHash": "78ffbe504243a995c597398744b631147c3d2e1e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\labels",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\labels",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519366,
+            "changeTime": 1544862519366,
+            "contentHash": "c3835cc038e1e9f66a66938c26f39887d32c77d8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\labels\\CustomLabels.labels-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\labels\\CustomLabels.labels-meta.xml",
+            "isDirectory": false,
+            "size": 2687,
+            "modifiedTime": 1544862519367,
+            "changeTime": 1544862519367,
+            "contentHash": "cd9affa4c2c1c037da298d718e8e78ab9acddb15",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792152,
+            "changeTime": 1546203792152,
+            "contentHash": "bea89dc47824718f2972dca252837f569bd3b591"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Game_Stat__c-Game Stat Layout.layout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Game_Stat__c-Game Stat Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 3039,
+            "modifiedTime": 1544862519373,
+            "changeTime": 1544862519373,
+            "contentHash": "10ecd3f17284449d9c64949cd56165e83a8399ae",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Game__c-Game Layout.layout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Game__c-Game Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 3264,
+            "modifiedTime": 1544862519381,
+            "changeTime": 1544862519381,
+            "contentHash": "64054ccc9fe8cf75d93a6ef9f25543c9a6015c8b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Member__c-Member Layout.layout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Member__c-Member Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 3261,
+            "modifiedTime": 1544862519392,
+            "changeTime": 1544862519392,
+            "contentHash": "4f2074eddae445b5a8ef44ebbe0d3204613b8544",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Team__c-Team Layout.layout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Team__c-Team Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 3875,
+            "modifiedTime": 1544862519396,
+            "changeTime": 1544862519396,
+            "contentHash": "bb6be4b4416b08d66cad882d0de26005d1378904",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Tournament_Stat__c-Tournament Stat Layout.layout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Tournament_Stat__c-Tournament Stat Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 4282,
+            "modifiedTime": 1544862519400,
+            "changeTime": 1544862519400,
+            "contentHash": "ee326c0b4e0f42a53b87884aefa1e546554a3ebd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Tournament__c-Tournament Layout.layout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Tournament__c-Tournament Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 3456,
+            "modifiedTime": 1544862519403,
+            "changeTime": 1544862519403,
+            "contentHash": "9e77f6dc89fa1bc0f063aba9afa2362587333905",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792113,
+            "changeTime": 1546203792113,
+            "contentHash": "ca5e609c45c2a0fd94a65c320c17b1e52991783c"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519484,
+            "changeTime": 1544862519484,
+            "contentHash": "c8ebfa1a63cf684ac2589e94b2f55b981b029fa6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\compactLayouts",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\compactLayouts",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519425,
+            "changeTime": 1544862519425,
+            "contentHash": "9790bbdee738c137fc41bdf0ac70ac35cd51fbc5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\compactLayouts\\Standard_Game_Stat.compactLayout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\compactLayouts\\Standard_Game_Stat.compactLayout-meta.xml",
+            "isDirectory": false,
+            "size": 439,
+            "modifiedTime": 1544862519430,
+            "changeTime": 1544862519430,
+            "contentHash": "ef7d92d81b64b0cdad21dfe59d61087cc04033eb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519479,
+            "changeTime": 1544862519479,
+            "contentHash": "f8209ae735339ddb933dbe4d0b25b88604f83629",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\At_Bats__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\At_Bats__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 388,
+            "modifiedTime": 1544862519436,
+            "changeTime": 1544862519436,
+            "contentHash": "0b8085940537b8caaeca4c1b99d5996315bbc24f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Batting_Average__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Batting_Average__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 513,
+            "modifiedTime": 1544862519442,
+            "changeTime": 1544862519442,
+            "contentHash": "5d8237045828d0dbe84ac3b290c031c5425a7e98",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Game__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Game__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 593,
+            "modifiedTime": 1544862519447,
+            "changeTime": 1544862519447,
+            "contentHash": "98f5331312dfcaccdd640972e039821637099d23",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Number__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Number__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 386,
+            "modifiedTime": 1544862519453,
+            "changeTime": 1544862519453,
+            "contentHash": "e267ad6fbaed9b216c9821d779b2d6507619928e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Player_Name__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Player_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 368,
+            "modifiedTime": 1544862519458,
+            "changeTime": 1544862519458,
+            "contentHash": "12285db92b980303a7e8cea08856ce73b6cbd1bc",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Player__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Player__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 504,
+            "modifiedTime": 1544862519464,
+            "changeTime": 1544862519464,
+            "contentHash": "6843bd8d953fadf169591e5e868fe2a295e316dd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Put_Outs__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Put_Outs__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 390,
+            "modifiedTime": 1544862519472,
+            "changeTime": 1544862519472,
+            "contentHash": "d1367f98cbe8f7506f23380e6a3a7446e0ed8576",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Runs__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Runs__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 382,
+            "modifiedTime": 1544862519478,
+            "changeTime": 1544862519478,
+            "contentHash": "9b9d9b35b192ad4b8e7cd073873ad4984c06bfa1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Strike_Outs__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\fields\\Strike_Outs__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 396,
+            "modifiedTime": 1544862519484,
+            "changeTime": 1544862519484,
+            "contentHash": "fd863ce11086fedd9bdb9543ca3f9229c84ba973",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\Game_Stat__c.object-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\Game_Stat__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 3358,
+            "modifiedTime": 1544862519424,
+            "changeTime": 1544862519424,
+            "contentHash": "e747a577992b432273586ec07bcf75e3ee6e008b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\listViews",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519485,
+            "changeTime": 1544862519485,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game_Stat__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 486,
+            "modifiedTime": 1544862519491,
+            "changeTime": 1544862519491,
+            "contentHash": "ce468f92d7cc1aa5fe9e0b874e7ba731672d9f95",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519511,
+            "changeTime": 1544862519511,
+            "contentHash": "b6de87db038a6e0026a590d46d804e36b331183c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519524,
+            "changeTime": 1544862519524,
+            "contentHash": "aaad7216a90ec1816d33c46f019871e731abf3b8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields\\Away_Team__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields\\Away_Team__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 511,
+            "modifiedTime": 1544862519517,
+            "changeTime": 1544862519517,
+            "contentHash": "3e7547cfb5d7bea9e6388fd016bd5d30a9c7855f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields\\Home_Team__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields\\Home_Team__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 498,
+            "modifiedTime": 1544862519523,
+            "changeTime": 1544862519523,
+            "contentHash": "4a71e993743b0bcbd57c0bdd2bb295972c3fa67d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields\\Tournament__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\fields\\Tournament__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 601,
+            "modifiedTime": 1544862519530,
+            "changeTime": 1544862519530,
+            "contentHash": "4e2275b0e77f77a9773d751daff19a4966d67704",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\Game__c.object-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Game__c\\Game__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2012,
+            "modifiedTime": 1544862519511,
+            "changeTime": 1544862519511,
+            "contentHash": "33bd5f8a73fdf583a250721dddde2fc8403741e2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519568,
+            "changeTime": 1544862519568,
+            "contentHash": "4f61d174d1c82d82ee38d4aae4f9a93c0702b9c4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519562,
+            "changeTime": 1544862519562,
+            "contentHash": "33225dd30804917a50e8a5d5dea4cbe2f6ce6f0b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields\\Contact__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields\\Contact__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 579,
+            "modifiedTime": 1544862519555,
+            "changeTime": 1544862519555,
+            "contentHash": "8572b7acce88f3de31a989be167f0c4aedbba55b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields\\Team__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields\\Team__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 663,
+            "modifiedTime": 1544862519561,
+            "changeTime": 1544862519561,
+            "contentHash": "482cc5660c20baf38d68cee2913bf6411fb5ca9b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields\\Year__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\fields\\Year__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 511,
+            "modifiedTime": 1544862519568,
+            "changeTime": 1544862519568,
+            "contentHash": "7401466d1157451897a2ea84085f5547886eb093",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\listViews",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519568,
+            "changeTime": 1544862519568,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 328,
+            "modifiedTime": 1544862519574,
+            "changeTime": 1544862519574,
+            "contentHash": "08e273cc1627f03d7f9099b5ec63f3970e33506b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\Member__c.object-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Member__c\\Member__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2391,
+            "modifiedTime": 1544862519549,
+            "changeTime": 1544862519549,
+            "contentHash": "57b4f879a10090326c381112eee44637fce203a8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519610,
+            "changeTime": 1544862519610,
+            "contentHash": "4fdad257ebd7b2c1334fb72dacd2f8565e16f9df",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\compactLayouts",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\compactLayouts",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519598,
+            "changeTime": 1544862519598,
+            "contentHash": "8dc101aa0911061b20c57d7b8a05d5ea5cda2d5c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\compactLayouts\\Adam_Layout.compactLayout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\compactLayouts\\Adam_Layout.compactLayout-meta.xml",
+            "isDirectory": false,
+            "size": 246,
+            "modifiedTime": 1544862519604,
+            "changeTime": 1544862519604,
+            "contentHash": "82622ce95a976d64729c038de512ea27162c2ff0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\fields",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519605,
+            "changeTime": 1544862519605,
+            "contentHash": "412e080707594cba6a960efbbe27e7782f2a1d73",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\fields\\Account__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\fields\\Account__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 607,
+            "modifiedTime": 1544862519610,
+            "changeTime": 1544862519610,
+            "contentHash": "7268746bc2fc94b49c7013bd97f193d9a04b9298",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\listViews",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519611,
+            "changeTime": 1544862519611,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 232,
+            "modifiedTime": 1544862519616,
+            "changeTime": 1544862519616,
+            "contentHash": "764dc03192d07c05acef0cf8216fdf436de749a6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\Team__c.object-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Team__c\\Team__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2057,
+            "modifiedTime": 1544862519597,
+            "changeTime": 1544862519597,
+            "contentHash": "176cf04227cbe7972074d585c1c4e80c631f5517",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519767,
+            "changeTime": 1544862519767,
+            "contentHash": "988bdbf5a871825513c1a84bf393c4fa31eb8c5b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\compactLayouts",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\compactLayouts",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519646,
+            "changeTime": 1544862519646,
+            "contentHash": "5247ef90196c8a3957788acdf84919b1d25d2df2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\compactLayouts\\Standard_TS_Compact_Layout.compactLayout-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\compactLayouts\\Standard_TS_Compact_Layout.compactLayout-meta.xml",
+            "isDirectory": false,
+            "size": 528,
+            "modifiedTime": 1544862519651,
+            "changeTime": 1544862519651,
+            "contentHash": "2fb050b686995dcd12b5177ac6ebfcd6f0f12ee2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519741,
+            "changeTime": 1544862519741,
+            "contentHash": "95b9b6068a52522f78b6afb9a25f4848e85381ea",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\At_Bats__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\At_Bats__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 465,
+            "modifiedTime": 1544862519659,
+            "changeTime": 1544862519659,
+            "contentHash": "668777836a5fc3953ac3a40168f34e0a7399fd8a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Batting_Average__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Batting_Average__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 571,
+            "modifiedTime": 1544862519665,
+            "changeTime": 1544862519665,
+            "contentHash": "8e9c99cd1e8254a38eab5d728fc16d59c0db5e30",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Contact__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Contact__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 592,
+            "modifiedTime": 1544862519670,
+            "changeTime": 1544862519670,
+            "contentHash": "4254bc1cc1d88102898835c7938c6559e8880b2b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Games__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Games__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 461,
+            "modifiedTime": 1544862519676,
+            "changeTime": 1544862519676,
+            "contentHash": "fcb0bceeb6430c67c98e59b5d934631afea12cdf",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Member__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Member__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 597,
+            "modifiedTime": 1544862519682,
+            "changeTime": 1544862519682,
+            "contentHash": "727b8f36d2f3d6d85712eeab7b14e4916cec5c81",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Player_Name__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Player_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 421,
+            "modifiedTime": 1544862519691,
+            "changeTime": 1544862519691,
+            "contentHash": "b9c96c97927416a8efae4b26e5877f218b94b97c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Put_Outs_Per_Game__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Put_Outs_Per_Game__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 586,
+            "modifiedTime": 1544862519698,
+            "changeTime": 1544862519698,
+            "contentHash": "71295fd3371b42553b0ec4bf070f105658dd64e5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Put_Outs__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Put_Outs__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 465,
+            "modifiedTime": 1544862519703,
+            "changeTime": 1544862519703,
+            "contentHash": "5a872566bcafcc25a9ccbe6049eeb4ae95fc8d2d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Runs__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Runs__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 440,
+            "modifiedTime": 1544862519710,
+            "changeTime": 1544862519710,
+            "contentHash": "6a1423257d84ab33b953c792cbfef6817f0f3694",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Strike_Outs__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Strike_Outs__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 469,
+            "modifiedTime": 1544862519722,
+            "changeTime": 1544862519722,
+            "contentHash": "5cc5d0f765f103d0d9c884d5ff750d47844a8ae9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Strike_Out_Percentage__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Strike_Out_Percentage__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 584,
+            "modifiedTime": 1544862519716,
+            "changeTime": 1544862519716,
+            "contentHash": "ada314e688cccc2f38086e405b4a10dd392c246c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Team_Name__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Team_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 425,
+            "modifiedTime": 1544862519728,
+            "changeTime": 1544862519728,
+            "contentHash": "6015eb35c571195995248878ac7d6e0ff8d40e05",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Team__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Team__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 592,
+            "modifiedTime": 1544862519735,
+            "changeTime": 1544862519735,
+            "contentHash": "e488cf8270b4850f9a087fe59bbb96aea3d8a279",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Tournament__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Tournament__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 602,
+            "modifiedTime": 1544862519740,
+            "changeTime": 1544862519740,
+            "contentHash": "2444ffee1b071828e086886b59d9c7fc8f6df638",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Year__c.field-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\fields\\Year__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 411,
+            "modifiedTime": 1544862519746,
+            "changeTime": 1544862519746,
+            "contentHash": "1219625a871b8d107761b174449ee23f586bdb28",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519760,
+            "changeTime": 1544862519760,
+            "contentHash": "e61c79fbbfc02f9e5801bd8e91d8b1eccb86cfb0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 564,
+            "modifiedTime": 1544862519752,
+            "changeTime": 1544862519752,
+            "contentHash": "5e5924645b9f4415d8b669aec5845b2d206356f4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews\\Stats.listView-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews\\Stats.listView-meta.xml",
+            "isDirectory": false,
+            "size": 568,
+            "modifiedTime": 1544862519760,
+            "changeTime": 1544862519760,
+            "contentHash": "95fc7844fc3f6998967b1c659200225736b70d69",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews\\X2016_Stats.listView-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\listViews\\X2016_Stats.listView-meta.xml",
+            "isDirectory": false,
+            "size": 604,
+            "modifiedTime": 1544862519766,
+            "changeTime": 1544862519766,
+            "contentHash": "43b478e2d9390a0a6c44925beefc0c29a495e43e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\Tournament_Stat__c.object-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\Tournament_Stat__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2613,
+            "modifiedTime": 1544862519645,
+            "changeTime": 1544862519645,
+            "contentHash": "c0fb5d5f4e8022b01721341ca8f2e15bc4c14eb1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\webLinks",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\webLinks",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519767,
+            "changeTime": 1544862519767,
+            "contentHash": "70d01931b7eaa1e81dd012474566995c026318f6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\webLinks\\Process_Selected_Stats.webLink-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament_Stat__c\\webLinks\\Process_Selected_Stats.webLink-meta.xml",
+            "isDirectory": false,
+            "size": 643,
+            "modifiedTime": 1544862519773,
+            "changeTime": 1544862519773,
+            "contentHash": "7d2d7c7c899db17970c3b4555c9e1ba23ab92bef",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519803,
+            "changeTime": 1544862519803,
+            "contentHash": "5964448a409e535463fe4f1b5301c28f10ec53da",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c\\listViews",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519804,
+            "changeTime": 1544862519804,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 204,
+            "modifiedTime": 1544862519810,
+            "changeTime": 1544862519810,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c\\Tournament__c.object-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Tournament__c\\Tournament__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2321,
+            "modifiedTime": 1544862519803,
+            "changeTime": 1544862519803,
+            "contentHash": "d4e60412c7ae3a350b6308ace0e088186e0b87ce",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\pages",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519822,
+            "changeTime": 1544862519822,
+            "contentHash": "3c8a29aa9653d6cdd85f4202e72782ab08059636",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\pages\\ProcessTournamentStats.page",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\pages\\ProcessTournamentStats.page",
+            "isDirectory": false,
+            "size": 421,
+            "modifiedTime": 1544862519823,
+            "changeTime": 1544862519823,
+            "contentHash": "4dc69a64cea817f5be195901ca21411b26f194d0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\pages\\ProcessTournamentStats.page-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\pages\\ProcessTournamentStats.page-meta.xml",
+            "isDirectory": false,
+            "size": 300,
+            "modifiedTime": 1544862519815,
+            "changeTime": 1544862519815,
+            "contentHash": "dd69ded38a96fbd71d514feeeb5f05b65b2b1b77",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\permissionsets",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\permissionsets",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544866002655,
+            "changeTime": 1544866002655,
+            "contentHash": "de8cbd179a9da3eb6f31b83a44bc2878bf88ea08",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\permissionsets\\Beepball.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\permissionsets\\Beepball.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 16565,
+            "modifiedTime": 1546203792412,
+            "changeTime": 1546203792412,
+            "contentHash": "8becba22fa0789c13ac64cecf39a65eab94439e3"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792160,
+            "changeTime": 1546203792160,
+            "contentHash": "efd97c83e3b2fb43295196b9a2ac807326c0f845"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Game_Stat__c.tab-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Game_Stat__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 222,
+            "modifiedTime": 1544862519827,
+            "changeTime": 1544862519827,
+            "contentHash": "33d296690a642082e57b8b9dbd236b3aece5a091",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Member__c.tab-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Member__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 223,
+            "modifiedTime": 1544862519830,
+            "changeTime": 1544862519830,
+            "contentHash": "6e6ce36238c68c3363a64744a7072e1a6ec83ae1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Team__c.tab-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Team__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 221,
+            "modifiedTime": 1544862519833,
+            "changeTime": 1544862519833,
+            "contentHash": "7504d3a8b6c9802d69ec959b60ca0ef12bdc52b3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Tournament_Stat__c.tab-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Tournament_Stat__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 222,
+            "modifiedTime": 1544862519836,
+            "changeTime": 1544862519836,
+            "contentHash": "33d296690a642082e57b8b9dbd236b3aece5a091",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Tournament__c.tab-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Tournament__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 223,
+            "modifiedTime": 1544862519840,
+            "changeTime": 1544862519840,
+            "contentHash": "b02a681f008b727f20c925eeb577f652ec2a70cf",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\triggers",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\triggers",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544862519846,
+            "changeTime": 1544862519846,
+            "contentHash": "52a5e048b7f197e721bc7830a5e31c20fff44e9d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\triggers\\ValidateTournamentStat.trigger",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\triggers\\ValidateTournamentStat.trigger",
+            "isDirectory": false,
+            "size": 518,
+            "modifiedTime": 1544862519847,
+            "changeTime": 1544862519847,
+            "contentHash": "7f37097bafb7e2fa9c1bed343b6bf1791e3907e2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\triggers\\ValidateTournamentStat.trigger-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\triggers\\ValidateTournamentStat.trigger-meta.xml",
+            "isDirectory": false,
+            "size": 178,
+            "modifiedTime": 1544862519844,
+            "changeTime": 1544862519844,
+            "contentHash": "2115b531a3bfa715698b872335a50aa51f03682b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2",
+        {
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1544867836101,
+            "changeTime": 1544867836101,
+            "contentHash": "9e0b33309342349583a314cef67eb5767b8c8a2e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\Registration_Year__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\Registration_Year__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2089,
+            "modifiedTime": 1546203792129,
+            "changeTime": 1546203792129,
+            "contentHash": "12c6a223f05049b670d22238b5ac472e806abd36"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields\\Active__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields\\Active__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 384,
+            "modifiedTime": 1546203792137,
+            "changeTime": 1546203792137,
+            "contentHash": "41517ee8f19edb44310a4001aed0baf831efe64a"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1546203792144,
+            "changeTime": 1546203792144,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Registration_Year__c-Registration Year Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Registration_Year__c-Registration Year Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2790,
+            "modifiedTime": 1546203792157,
+            "changeTime": 1546203792157,
+            "contentHash": "8e4316f6f8ceed0095062c8366243036b471a27a"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Registration_Year__c.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Registration_Year__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 273,
+            "modifiedTime": 1546203792163,
+            "changeTime": 1546203792163,
+            "contentHash": "a73cf902b5c802202471994b3542da16b20fe0c9"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 34916,
+            "modifiedTime": 1546203792236,
+            "changeTime": 1546203792236,
+            "contentHash": "cbcd1d83dc32d2f74cc3377583c4ef45268124db"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 19100,
+            "modifiedTime": 1546203792287,
+            "changeTime": 1546203792287,
+            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 19438,
+            "modifiedTime": 1546203792354,
+            "changeTime": 1546203792354,
+            "contentHash": "97f25ecc41f79b80b483234d89e95c9d324c48a1"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 19100,
+            "modifiedTime": 1546203792378,
+            "changeTime": 1546203792378,
+            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792141,
+            "changeTime": 1546203792141,
+            "contentHash": "4aac525b077abbeb61f20d936abd9b5e3de41faf"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792131,
+            "changeTime": 1546203792131,
+            "contentHash": "167b00b6699683e85784c6885d0543f790a2eaa8"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792142,
+            "changeTime": 1546203792142,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1546203792369,
+            "changeTime": 1546203792369,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+        }
+    ]
+]
