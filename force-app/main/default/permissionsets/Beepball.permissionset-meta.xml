@@ -4,6 +4,10 @@
         <application>Beepball</application>
         <visible>true</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Beepball_Lightning</application>
+        <visible>true</visible>
+    </applicationVisibilities>
     <classAccesses>
         <apexClass>ContactService</apexClass>
         <enabled>true</enabled>

@@ -32,44 +32,40 @@
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792198,
             "changeTime": 1546203792198,
-            "contentHash": "20ecc25d68ec5070a6655cf749f965a21e7aad7d"
+            "contentHash": "20ecc25d68ec5070a6655cf749f965a21e7aad7d",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1544862518688,
-            "changeTime": 1544862518688,
-            "contentHash": "1510db0b7fe6700c0e42bbe119a9b1ecb7b53eaf",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1546236869265,
+            "changeTime": 1546236869265,
+            "contentHash": "f568262c87e7d4e2f8eeb2e4ecc228f7a1c503ef"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications\\Beepball.app-meta.xml",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications\\Beepball.app-meta.xml",
             "isDirectory": false,
-            "size": 627,
-            "modifiedTime": 1544862518689,
-            "changeTime": 1544862518689,
-            "contentHash": "d4c66e7e9ec3aa9167252973ff4c668f6849e014",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 628,
+            "modifiedTime": 1546236869283,
+            "changeTime": 1546236869283,
+            "contentHash": "ff095506b64e16407d71e1aa4daaace516b5ecea"
         }
     ],
     [
@@ -2145,14 +2141,14 @@
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792152,
             "changeTime": 1546203792152,
-            "contentHash": "bea89dc47824718f2972dca252837f569bd3b591"
+            "contentHash": "bea89dc47824718f2972dca252837f569bd3b591",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2248,14 +2244,14 @@
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792113,
             "changeTime": 1546203792113,
-            "contentHash": "ca5e609c45c2a0fd94a65c320c17b1e52991783c"
+            "contentHash": "ca5e609c45c2a0fd94a65c320c17b1e52991783c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -3345,23 +3341,23 @@
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\permissionsets\\Beepball.permissionset-meta.xml",
             "isDirectory": false,
             "isMetadataFile": true,
-            "size": 16565,
-            "modifiedTime": 1546203792412,
-            "changeTime": 1546203792412,
-            "contentHash": "8becba22fa0789c13ac64cecf39a65eab94439e3"
+            "size": 16712,
+            "modifiedTime": 1546236869353,
+            "changeTime": 1546236869353,
+            "contentHash": "cf54b43d2de442f285a8c280cdae31067572307e"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792160,
             "changeTime": 1546203792160,
-            "contentHash": "efd97c83e3b2fb43295196b9a2ac807326c0f845"
+            "contentHash": "efd97c83e3b2fb43295196b9a2ac807326c0f845",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -3502,170 +3498,183 @@
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\Registration_Year__c.object-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\Registration_Year__c.object-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2089,
             "modifiedTime": 1546203792129,
             "changeTime": 1546203792129,
-            "contentHash": "12c6a223f05049b670d22238b5ac472e806abd36"
+            "contentHash": "12c6a223f05049b670d22238b5ac472e806abd36",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields\\Active__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields\\Active__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 384,
             "modifiedTime": 1546203792137,
             "changeTime": 1546203792137,
-            "contentHash": "41517ee8f19edb44310a4001aed0baf831efe64a"
+            "contentHash": "41517ee8f19edb44310a4001aed0baf831efe64a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews\\All.listView-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews\\All.listView-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 204,
             "modifiedTime": 1546203792144,
             "changeTime": 1546203792144,
-            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd"
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Registration_Year__c-Registration Year Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\layouts\\Registration_Year__c-Registration Year Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2790,
             "modifiedTime": 1546203792157,
             "changeTime": 1546203792157,
-            "contentHash": "8e4316f6f8ceed0095062c8366243036b471a27a"
+            "contentHash": "8e4316f6f8ceed0095062c8366243036b471a27a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Registration_Year__c.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\tabs\\Registration_Year__c.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 273,
             "modifiedTime": 1546203792163,
             "changeTime": 1546203792163,
-            "contentHash": "a73cf902b5c802202471994b3542da16b20fe0c9"
+            "contentHash": "a73cf902b5c802202471994b3542da16b20fe0c9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 34916,
             "modifiedTime": 1546203792236,
             "changeTime": 1546203792236,
-            "contentHash": "cbcd1d83dc32d2f74cc3377583c4ef45268124db"
+            "contentHash": "cbcd1d83dc32d2f74cc3377583c4ef45268124db",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 19100,
             "modifiedTime": 1546203792287,
             "changeTime": 1546203792287,
-            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c"
+            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 19438,
             "modifiedTime": 1546203792354,
             "changeTime": 1546203792354,
-            "contentHash": "97f25ecc41f79b80b483234d89e95c9d324c48a1"
+            "contentHash": "97f25ecc41f79b80b483234d89e95c9d324c48a1",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 19100,
             "modifiedTime": 1546203792378,
             "changeTime": 1546203792378,
-            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c"
+            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792141,
             "changeTime": 1546203792141,
-            "contentHash": "4aac525b077abbeb61f20d936abd9b5e3de41faf"
+            "contentHash": "4aac525b077abbeb61f20d936abd9b5e3de41faf",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792131,
             "changeTime": 1546203792131,
-            "contentHash": "167b00b6699683e85784c6885d0543f790a2eaa8"
+            "contentHash": "167b00b6699683e85784c6885d0543f790a2eaa8",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\objects\\Registration_Year__c\\listViews",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792142,
             "changeTime": 1546203792142,
-            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6"
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1546203792369,
             "changeTime": 1546203792369,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications\\Beepball_Lightning.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball2\\force-app\\main\\default\\applications\\Beepball_Lightning.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 715,
+            "modifiedTime": 1546236869267,
+            "changeTime": 1546236869267,
+            "contentHash": "f4e738d3c2897ba18b9b2ffb7b353d49b755d45e"
         }
     ]
 ]
