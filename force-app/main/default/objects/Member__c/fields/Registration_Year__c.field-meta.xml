@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Year__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Adds registration requirements</description>
+    <externalId>false</externalId>
+    <label>Registration Year</label>
+    <referenceTo>Registration_Year__c</referenceTo>
+    <relationshipLabel>Members</relationshipLabel>
+    <relationshipName>Members</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
