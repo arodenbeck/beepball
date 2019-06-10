@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ballot_Initiative__c</fullName>
+    <externalId>false</externalId>
+    <label>Ballot Initiative</label>
+    <referenceTo>Ballot_Initiative__c</referenceTo>
+    <relationshipLabel>Ballot Selections</relationshipLabel>
+    <relationshipName>Ballot_Selections</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

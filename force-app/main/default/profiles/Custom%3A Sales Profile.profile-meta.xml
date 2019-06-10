@@ -10,6 +10,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>EmailVerificationService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EmailVerifications</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MembershipRegistrationController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MembershipService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -271,6 +283,61 @@
     </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Ballot_Initiative__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Ballot_Initiative__c.Has_Selections__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Ballot_Initiative__c.Number_of_Candidates__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Ballot_Initiative__c.Votes_Allowed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate_Profile__c.Ballot_Initiative__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Election__c.End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Election__c.End_Time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Email_Verification__c.Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Email_Verification__c.Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Email_Verification__c.Verification_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Email_Verification__c.Verified__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Game_Stat__c.At_Bats__c</field>
         <readable>false</readable>
@@ -411,6 +478,21 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Ballot_Initiative__c-Ballot Initiative Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ballot_Selection__c-Ballot Selection Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Candidate_Profile__c-Candidate Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Election__c-Election Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Email_Verification__c-Email Verification Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Game_Stat__c-Game Stat Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -432,9 +514,21 @@
         <layout>Tournament__c-Tournament Layout</layout>
     </layoutAssignments>
     <pageAccesses>
+        <apexPage>MembershipRegistration</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>ProcessTournamentStats</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>Candidate_Profile__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Election__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Game_Stat__c</tab>
         <visibility>Hidden</visibility>
@@ -583,6 +677,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransactionalEmailSend</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

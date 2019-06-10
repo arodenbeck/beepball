@@ -32,16 +32,14 @@
     [
         "/home/digi/beepball/beepball/force-app/main/default",
         {
+            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default",
             "isDirectory": true,
-            "size": 4096,
-            "modifiedTime": 1560014134861,
-            "changeTime": 1560014134861,
-            "contentHash": "4a9c5c40ad54b4553150980b149bdc105b4736bd",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 4096,
+            "modifiedTime": 1560131272851,
+            "changeTime": 1560131272851,
+            "contentHash": "a40fe404d2876ca193e664552d7b9cb732fc823f"
         }
     ],
     [
@@ -77,14 +75,14 @@
     [
         "/home/digi/beepball/beepball/force-app/main/default/classes",
         {
-            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 12288,
-            "modifiedTime": 1560109280715,
+            "modifiedTime": 1560109672725,
             "changeTime": 1560109280715,
-            "contentHash": "beeac6c9db833d0c0c3699b3addf3624b4d54b45"
+            "contentHash": "beeac6c9db833d0c0c3699b3addf3624b4d54b45",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2130,16 +2128,14 @@
     [
         "/home/digi/beepball/beepball/force-app/main/default/layouts",
         {
+            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/layouts",
             "isDirectory": true,
-            "size": 4096,
-            "modifiedTime": 1560014134853,
-            "changeTime": 1560014134853,
-            "contentHash": "bea89dc47824718f2972dca252837f569bd3b591",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 4096,
+            "modifiedTime": 1560131272871,
+            "changeTime": 1560131272871,
+            "contentHash": "06cef5eab5590d57770762c4fc948eb59503062c"
         }
     ],
     [
@@ -2250,16 +2246,14 @@
     [
         "/home/digi/beepball/beepball/force-app/main/default/objects",
         {
+            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects",
             "isDirectory": true,
-            "size": 4096,
-            "modifiedTime": 1560014134857,
-            "changeTime": 1560014134857,
-            "contentHash": "ca5e609c45c2a0fd94a65c320c17b1e52991783c",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 4096,
+            "modifiedTime": 1560131272835,
+            "changeTime": 1560131272835,
+            "contentHash": "fad2c342bcb048e89df4e558e37411bedfb0eb8f"
         }
     ],
     [
@@ -3469,70 +3463,62 @@
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
             "isMetadataFile": true,
-            "size": 37323,
-            "modifiedTime": 1560109280895,
-            "changeTime": 1560109280895,
-            "contentHash": "2fd48b656093ba26f149f16cf61b2da40e64237a"
+            "size": 40607,
+            "modifiedTime": 1560131273179,
+            "changeTime": 1560131273179,
+            "contentHash": "2511f17f3417550231641035ffd4f840b877de3f"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 19100,
-            "modifiedTime": 1560014134857,
-            "changeTime": 1560014134857,
-            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 22482,
+            "modifiedTime": 1560131273079,
+            "changeTime": 1560131273079,
+            "contentHash": "aa8816dddd41c4dec888d9f856e3a970bd15a648"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 19100,
-            "modifiedTime": 1560014134857,
-            "changeTime": 1560014134857,
-            "contentHash": "08bba74c4353f13f7d68f452455ceac16356a19c",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 22482,
+            "modifiedTime": 1560131272971,
+            "changeTime": 1560131272971,
+            "contentHash": "aa8816dddd41c4dec888d9f856e3a970bd15a648"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 19438,
-            "modifiedTime": 1560014134857,
-            "changeTime": 1560014134857,
-            "contentHash": "97f25ecc41f79b80b483234d89e95c9d324c48a1",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 22820,
+            "modifiedTime": 1560131273215,
+            "changeTime": 1560131273215,
+            "contentHash": "04f036bafb0604545a845ae01228481615eb8123"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/tabs",
         {
+            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/tabs",
             "isDirectory": true,
-            "size": 4096,
-            "modifiedTime": 1560014134861,
-            "changeTime": 1560014134861,
-            "contentHash": "efd97c83e3b2fb43295196b9a2ac807326c0f845",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 4096,
+            "modifiedTime": 1560131272875,
+            "changeTime": 1560131272875,
+            "contentHash": "049af1d4cd1740ec87a7b6778e997037fcb9a11e"
         }
     ],
     [
@@ -3688,79 +3674,560 @@
     [
         "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerifications.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerifications.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1560109280707,
             "changeTime": 1560109280707,
-            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb"
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerifications.cls",
         {
-            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerifications.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2213,
             "modifiedTime": 1560109280707,
             "changeTime": 1560109280707,
-            "contentHash": "d830808fa4ecb98e9df89be203a98353c0490f82"
+            "contentHash": "d830808fa4ecb98e9df89be203a98353c0490f82",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerificationService.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerificationService.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1560109280711,
             "changeTime": 1560109280711,
-            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb"
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerificationService.cls",
         {
-            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/classes/EmailVerificationService.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3000,
             "modifiedTime": 1560109280715,
             "changeTime": 1560109280715,
-            "contentHash": "b848d2484e6ec5e4c5a92d06c60875d255cdebc3"
+            "contentHash": "b848d2484e6ec5e4c5a92d06c60875d255cdebc3",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/classes/MembershipRegistrationController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/classes/MembershipRegistrationController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1560109280715,
             "changeTime": 1560109280715,
-            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb"
+            "contentHash": "ec29c6f2ff617299f8e53d0ea63d440cd27207eb",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/home/digi/beepball/beepball/force-app/main/default/classes/MembershipRegistrationController.cls",
         {
-            "state": "u",
             "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/classes/MembershipRegistrationController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4345,
             "modifiedTime": 1560109280715,
             "changeTime": 1560109280715,
-            "contentHash": "fdee16be435cc871b750ca9f5a963667fa38a9e8"
+            "contentHash": "fdee16be435cc871b750ca9f5a963667fa38a9e8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/Ballot_Selection__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/Ballot_Selection__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2125,
+            "modifiedTime": 1560131272771,
+            "changeTime": 1560131272771,
+            "contentHash": "86808acc325b93ad6a39b64e235d650b33155ef0"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/fields/Ballot_Initiative__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/fields/Ballot_Initiative__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 646,
+            "modifiedTime": 1560131272771,
+            "changeTime": 1560131272771,
+            "contentHash": "ad012dc11c13e0cdbb4b25bc798e57649f0216ed"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/fields/Candidate_Profile__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/fields/Candidate_Profile__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 646,
+            "modifiedTime": 1560131272771,
+            "changeTime": 1560131272771,
+            "contentHash": "0ed7542271c070a2918515503b8417cd75cb8536"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/Ballot_Initiative__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/Ballot_Initiative__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2137,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "748569a608af020959edb9883f21712aa91d8c07"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Description__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Description__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 368,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "85578052048b4329315d358104d70f981b0121e6"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Election__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Election__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 621,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "117e08b3547814e252b5c85d9dcb15effb35001c"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Has_Selections__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Has_Selections__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 334,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "b115043b03e3b83c91ae9de39f21f9dcef4b8b05"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Number_of_Candidates__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Number_of_Candidates__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 437,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "db12086078ea119434ae527e9c16d4f86efb20e0"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Votes_Allowed__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields/Votes_Allowed__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 572,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "bb282053c710197fe015a386b37f42de4584a16a"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/Election__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/Election__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2117,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "d17ddb0ebba9599faea7c44a73c2471ef6943bcf"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/End_Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/End_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 367,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "066d80aefa65202999176335235ecaca8e732e2e"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/End_Time__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/End_Time__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 397,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "8ee5d181c7715558a3cc8759975ceff185066cab"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/Start_Date__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/Start_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 382,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "4120073bdc60bea13446a72df53216d34b9cf9ba"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/Start_Time__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields/Start_Time__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 313,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "aa3cad0bbad54ae24fd5d8adeee5d1d7dbbd84b9"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/listViews/All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/Candidate_Profile__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/Candidate_Profile__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2035,
+            "modifiedTime": 1560131272839,
+            "changeTime": 1560131272839,
+            "contentHash": "4522a27e9989d9d33bb92e2365fef1acd9029ae9"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/fields/Ballot_Initiative__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/fields/Ballot_Initiative__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 553,
+            "modifiedTime": 1560131272839,
+            "changeTime": 1560131272839,
+            "contentHash": "7e62b974abea4b351632e0c2b13da078a0c68a3c"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/fields/Contact__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/fields/Contact__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 520,
+            "modifiedTime": 1560131272839,
+            "changeTime": 1560131272839,
+            "contentHash": "0683a791a05cce91b51790fc395010a7c416485b"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/listViews/All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/listViews/All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1560131272839,
+            "changeTime": 1560131272839,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/reportTypes/Elections_with_Ballot_Initiatives_with_Ballot_Selections.reportType-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/reportTypes/Elections_with_Ballot_Initiatives_with_Ballot_Selections.reportType-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 5365,
+            "modifiedTime": 1560131272855,
+            "changeTime": 1560131272855,
+            "contentHash": "f69f482e5f5d4050369b1c6d99bc3426c55f4bad"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/layouts/Ballot_Selection__c-Ballot Selection Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/layouts/Ballot_Selection__c-Ballot Selection Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2091,
+            "modifiedTime": 1560131272859,
+            "changeTime": 1560131272859,
+            "contentHash": "3d1561053750026b73bdbc7138749b5c11252015"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/layouts/Election__c-Election Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/layouts/Election__c-Election Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2648,
+            "modifiedTime": 1560131272863,
+            "changeTime": 1560131272863,
+            "contentHash": "314fd69f6d05893675cc25b8dbd0f2fc1881823f"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/layouts/Ballot_Initiative__c-Ballot Initiative Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/layouts/Ballot_Initiative__c-Ballot Initiative Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2804,
+            "modifiedTime": 1560131272867,
+            "changeTime": 1560131272867,
+            "contentHash": "8248652a012b065a6fe4b4dfb5a82afc493a7595"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/layouts/Candidate_Profile__c-Candidate Profile Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/layouts/Candidate_Profile__c-Candidate Profile Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2380,
+            "modifiedTime": 1560131272871,
+            "changeTime": 1560131272871,
+            "contentHash": "4d54af59e0b65ebf223c896577da046dbecc2a6e"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/tabs/Candidate_Profile__c.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/tabs/Candidate_Profile__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1560131272871,
+            "changeTime": 1560131272871,
+            "contentHash": "2fa3f041d5583326b71de41103a1438aa7fbc35b"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/tabs/Election__c.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/tabs/Election__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 281,
+            "modifiedTime": 1560131272875,
+            "changeTime": 1560131272875,
+            "contentHash": "f97401898a9af12b04568c81d3e3aeb532e72891"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272771,
+            "changeTime": 1560131272771,
+            "contentHash": "9a5c6cccbfc2ad47c4e9d3c5c8aa4660432992da"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Selection__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272771,
+            "changeTime": 1560131272771,
+            "contentHash": "cb1acadc7255ff07b93852890c96dc549f88889e"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "2cb2effeff859f61328a35a5cb92c2dbe974c059"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Ballot_Initiative__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272799,
+            "changeTime": 1560131272799,
+            "contentHash": "0b1652aa143148a1f8063d1fe2468591c266fbe5"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "98a81f374db5f82277c32c82c1bbb6044619df8c"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "f01cd39c3ebe030a7341bb59bcd916bd9aad018d"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/listViews",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Election__c/listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272819,
+            "changeTime": 1560131272819,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272839,
+            "changeTime": 1560131272839,
+            "contentHash": "8e14c6e0da86b468eecce5e0824b82d6c74891be"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/fields",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272839,
+            "changeTime": 1560131272839,
+            "contentHash": "cfa13995fd32bc67faaa9054dae7faa29dcd4797"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/listViews",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/objects/Candidate_Profile__c/listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272839,
+            "changeTime": 1560131272839,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6"
+        }
+    ],
+    [
+        "/home/digi/beepball/beepball/force-app/main/default/reportTypes",
+        {
+            "state": "u",
+            "sourcePath": "/home/digi/beepball/beepball/force-app/main/default/reportTypes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 4096,
+            "modifiedTime": 1560131272855,
+            "changeTime": 1560131272855,
+            "contentHash": "a3ee4094c7deca98200da336ea9a6f40930fc368"
         }
     ]
 ]
