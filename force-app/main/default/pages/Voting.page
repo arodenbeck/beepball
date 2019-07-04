@@ -1,0 +1,38 @@
+<apex:page showHeader="false" controller="votingController" title="NBBA Election Voting System" >
+  <h1>Welcome to the NBBA Election System</h1>
+  <apex:outputPanel id="voterIdSearch" layout="block" rendered="{!isVoterIdSearchVisible}" >
+    <apex:form id="voterIdForm" >
+      <apex:outputLabel for="voterIdInput" value="Voter Id: " />
+      <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" />
+      <br/><br/>
+      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPage" />
+    </apex:form> 
+  </apex:outputPanel>
+  <apex:outputPanel id="electionContainer" rendered="{!isElectionVisible}" layout="block" >
+    <apex:form id="electionForm" />
+      <h2>{!ballotInitiativeTitle}</h2>
+      <apex:dataTable value="{!initiativeSelections}" var="selection" >
+        <apex:column headerValue="Vote" >
+          <apex:inputCheckbox value="{!selection.vote}" label="{!selection.voteTitle}" />
+        </apex:column>
+        <apex:column headerValue="Choice" >
+          <apex:outputText value="{!selection.voteTitle}" />
+        </apex:column>
+      </apex:dataTable>
+      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionContainer" value="<- Previous" /> 
+      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionContainer" value="Next ->" /> 
+    </apex:form>
+  </apex:outputPanel>
+  <apex:outputPanel id="voteSubmission" layout="block" rendered="{!isVoteSubmissionVisible}" >
+    <apex:form id="submissionForm" >
+      <apex:dataTable value="{!votesForSubmission}" var="vote" >
+        <apex:column headerValue="Your Vote" >
+        </apex:column> 
+        <apex:column headerValue="Choice" >
+          <apex:outputText value="{!vote.Name}" /> 
+       </apex:column> 
+     </apex:dataTable> 
+     <apex:commandButton action="{!submitVote}" value="Submit Vote" rerender="voteSubmission" /> 
+   </apex:form> 
+ </apex:outputPanel>
+</apex:page>

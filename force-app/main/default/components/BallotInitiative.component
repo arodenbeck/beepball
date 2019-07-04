@@ -1,0 +1,7 @@
+<apex:component >
+  <apex:attribute name="initiativeTitle" description="Title of initiative" type="string" />
+  <apex:attribute name="initiativeText" description="Text of a question style initiative." type="string" />
+  <apex:attribute name="votesAllowed" description="Max number of votes possible." type="int" />
+  <h3>{!initiativeTitle}</h3>
+  <apex:outputText>{!initiativeText}</apex:outputText>
+</apex:component>

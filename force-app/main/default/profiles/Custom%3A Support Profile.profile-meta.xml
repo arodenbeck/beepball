@@ -50,6 +50,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>VotingController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>fflib_Answer</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -304,6 +308,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Ballot__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Candidate_Profile__c.Ballot_Initiative__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -477,11 +486,24 @@
         <field>Tournament_Stat__c.Year__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vote__c.Affirmative__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vote__c.Candidate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Ballot_Initiative__c-Ballot Initiative Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Ballot_Selection__c-Ballot Selection Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ballot__c-Ballot Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Candidate_Profile__c-Candidate Profile Layout</layout>
@@ -513,12 +535,19 @@
     <layoutAssignments>
         <layout>Tournament__c-Tournament Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vote__c-Vote Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>MembershipRegistration</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ProcessTournamentStats</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Voting</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
