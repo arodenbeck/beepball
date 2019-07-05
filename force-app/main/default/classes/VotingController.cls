@@ -113,9 +113,24 @@ public String ballotInitiativeTitle { get;set; }
   {
     isVoteSubmissionVisible = true;
     isElectionVisible = false;
-    for(List<VotingSelection> votingSelection : votingSelectionsByInitiativeId.values())
+    for(List<VotingSelection> votingSelections : votingSelectionsByInitiativeId.values())
     {
-      for(VotingSelection votingSelection : )
+      for(VotingSelection votingSelection : votingSelections)
+      {
+        Vote__c newVote = new Vote__c();
+        newVote.Name = voteSelection.voteTitle;
+        newVote.Ballot_Id__c = voteSelection.ballotId;
+        newVote.Ballot_Initiative__c = voteSelection.ballotInitiativeId;
+        if(voteSelection.candidateId == null)
+        {
+            newVote.Affirmative__c = voteSelection.Vote;
+        }  // End if voteSelection does not have a candidate assigned
+        else
+        {
+          newVote.Candidate__c = voteSelection.CandidateId;
+        }  // End else a candidate was assigned
+        votesForSubmission.add(newVote);
+      }  // End votingSelection loop
     }  // End VotingSelections list loop
     return null;
   }  // End displayVotes method
@@ -124,6 +139,10 @@ public String ballotInitiativeTitle { get;set; }
     
     return null;
   }  // End validate method
+  public PageReference submitVote()
+    {
+
+    }  // End submitVote method
   private void fetchBallotInitiatives(Id electionId)
   {
     ballotInitiatives = [select Id,Name,Description__c,Election__c,Has_Selections__c,Number_of_Candidates__c,Votes_Allowed__c, 
