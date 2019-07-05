@@ -141,7 +141,15 @@ public String ballotInitiativeTitle { get;set; }
   }  // End validate method
   public PageReference submitVote()
     {
+    try 
+    {
+      upsert votesForSubmission;
+    }  // End try to upsert
+    catch(Exception e)
+    {
 
+    }  // End catch exception
+    return null;
     }  // End submitVote method
   private void fetchBallotInitiatives(Id electionId)
   {
