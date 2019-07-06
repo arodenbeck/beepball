@@ -18,7 +18,7 @@ public String ballotInitiativeTitle { get;set; }
 
   public VotingController()
   {
-    this.votingSelectionsByInitiativeId = new Map<Id, List<VotingSelections>>();  
+    this.votingSelectionsByInitiativeId = new Map<Id, List<VotingSelection>>();  
     votesForSubmission = new List<Vote__c>();
     isVoterIdSearchVisible = true;
     isElectionVisible = false;
@@ -84,7 +84,7 @@ public String ballotInitiativeTitle { get;set; }
     if(intCurrentInitiative > 0)
     {
       isPreviousDisabled = true;
-      intCurrentInitiative = 0;
+    intCurrentInitiative = 0;
     }  // End if intCurrentInitiative less than 0
     return null;
   }  // End renderPrevious method
