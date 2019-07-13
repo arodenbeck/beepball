@@ -54,14 +54,14 @@ public String ballotInitiativeTitle { get;set; }
      isElectionVisible = true;
       isVoterIdSearchVisible = false;
       votesByInitiativeId = new Map<id, List<Vote__c>>();
-      for(Vote__c vote : [select Id,Name,Affirmative__c,Ballot_Initiative__c,Candidate__c from Vote__c where Ballot_Id__c = :ballot.Id)
+      for(Vote__c vote : [select Id,Name,Affirmative__c,Ballot_Initiative__c,Candidate__c from Vote__c where Ballot_Id__c = :ballot.Id])
       {
-          List<Vote__c> votesByInitiative = votesByInitiativeId.get(vote.Ballot_Initiative__c)
+          List<Vote__c> votesByInitiative = votesByInitiativeId.get(vote.Ballot_Initiative__c);
           if(votesByInitiative == null)
           {
             votesByInitiativeId.put(vote.Ballot_Initiative__c, new List<Vote__c>());
           }  // End if votesByInitiative is null
-          votesByInitiativeIds.get(vote.Ballot_Initiative__c).add(vote);
+          votesByInitiativeId.get(vote.Ballot_Initiative__c).add(vote);
       }  // End votes loop
 
       fetchBallotInitiatives(ballot.Election__c);
@@ -71,7 +71,7 @@ public String ballotInitiativeTitle { get;set; }
   public PageReference renderNext()
   {
     intCurrentInitiative++;
-    if(intCurrentInitiative => initiativeCount)
+    if(intCurrentInitiative >= initiativeCount)
     {
       isNextDisabled = true;
       intCurrentInitiative = (initiativeCount - 1);
@@ -108,26 +108,27 @@ public String ballotInitiativeTitle { get;set; }
     {
       isNextDisabled = true;
     }  // End else disable Next
+    return null;
   }  // End renderCurrentInitiative method
   public PageReference displayVotes()
   {
-    isVoteSubmissionVisible = true;
+    isVoteVerificationVisible = true;
     isElectionVisible = false;
     for(List<VotingSelection> votingSelections : votingSelectionsByInitiativeId.values())
     {
       for(VotingSelection votingSelection : votingSelections)
       {
         Vote__c newVote = new Vote__c();
-        newVote.Name = voteSelection.voteTitle;
-        newVote.Ballot_Id__c = voteSelection.ballotId;
-        newVote.Ballot_Initiative__c = voteSelection.ballotInitiativeId;
-        if(voteSelection.candidateId == null)
+        newVote.Name = votingSelection.voteTitle;
+        newVote.Ballot_Id__c = votingSelection.ballotId;
+        newVote.Ballot_Initiative__c = votingSelection.ballotInitiativeId;
+        if(votingSelection.candidateId == null)
         {
-            newVote.Affirmative__c = voteSelection.Vote;
+            newVote.Affirmative__c = votingSelection.Vote;
         }  // End if voteSelection does not have a candidate assigned
         else
         {
-          newVote.Candidate__c = voteSelection.CandidateId;
+          newVote.Candidate__c = votingSelection.CandidateId;
         }  // End else a candidate was assigned
         votesForSubmission.add(newVote);
       }  // End votingSelection loop
@@ -160,19 +161,19 @@ public String ballotInitiativeTitle { get;set; }
     intCurrentInitiative = 0;
     for(Ballot_Initiative__c ballotInitiative : ballotInitiatives)
     {
-      if(ballotInittiative.Has_Selections__c)
+      List<VotingSelection> votingSelections = votingSelectionsByInitiativeId.get(ballotInitiative.Id);
+      if(votingSelections == null)
+      {
+        votingSelectionsByInitiativeId.put(ballotInitiative.Id, new List<VotingSelection>());
+      }  // End if votingSelections is null
+      if(ballotInitiative.Has_Selections__c)
       {
         for(Ballot_Selection__c ballotSelection : ballotInitiative.Ballot_Selections__r)
         {
-          List<VotingSelection> votingSelections = votingSelectionsByInitiativeId.get(ballotInitiative.Id);
-          if(votingSelections == null)
-          {
-            votingSelectionsByInitiativeId.put(ballotInitiative, new List<VotingSelection>());
-          }  // End if votingSelections is null
-          votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotSelection.Name, ballot.Id, ballotInitiative.Id, ballotInitiative.Candidate_Profile__c));
+          votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotSelection.Name, ballot.Id, ballotInitiative.Id, ballotSelection.Candidate_Profile__c));
         }  // End ballotSelections loop
       }  // End if has_selections is true
-      votingSelectionsByInitiativeId.put(ballotInitiative.Id, new List<VotingSelection>(new VotingSelection(false, ballotSelection.Name, ballot.Id, ballotInitiative.Id)));
+      votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotInitiative.Name, ballot.Id, ballotInitiative.Id));
     }  // End ballot initiatives loop
   }  // End fetchBallotInitiatives
 
