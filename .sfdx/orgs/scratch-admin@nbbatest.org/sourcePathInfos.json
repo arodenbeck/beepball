@@ -77,16 +77,15 @@
     [
         "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\classes",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1562398445994,
-            "changeTime": 1562399019454,
-            "contentHash": "4c76a2891316ddfdbcc5441270c6c524efd97829",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 0,
+            "modifiedTime": 1563037321817,
+            "changeTime": 1563037321817,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "ed8e0a6fc32093400f47605fa4b660ab686d1bf2"
         }
     ],
     [
@@ -2072,16 +2071,15 @@
     [
         "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\classes\\VotingController.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\classes\\VotingController.cls",
             "isDirectory": false,
-            "size": 8335,
-            "modifiedTime": 1562408157795,
-            "changeTime": 1562408157795,
-            "contentHash": "5c041786501713b4bb97e7a3514d8b32201c0ef9",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 8327,
+            "modifiedTime": 1563041673905,
+            "changeTime": 1563041673905,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "7d28b9f2e4e36a35bc0ea32b04a3c6179b500350"
         }
     ],
     [
@@ -4085,13 +4083,11 @@
             "sourcePath": "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\objects\\Vote__c\\fields",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1562398446176,
-            "changeTime": 1562398446176,
-            "contentHash": "e16ca9b097209f109db8dec5b6608d02caecdbd4",
+            "modifiedTime": 1563044762792,
+            "changeTime": 1563044762792,
+            "contentHash": "ad78afa2579f7b8c8b94fd5ed71585c45a684f44",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -4217,16 +4213,15 @@
     [
         "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\pages\\Voting.page",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\pages\\Voting.page",
             "isDirectory": false,
-            "size": 2413,
-            "modifiedTime": 1562398446180,
-            "changeTime": 1562398446180,
-            "contentHash": "9f89ca057f08bbb7b603c7ea9e75877af83fa695",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 2419,
+            "modifiedTime": 1563045027756,
+            "changeTime": 1563045027756,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "16bbd97790f730c73eead48cae128d01d7653c84"
         }
     ],
     [
@@ -4277,31 +4272,29 @@
     [
         "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\profiles",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\profiles",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1562398446218,
-            "changeTime": 1562398446218,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 0,
+            "modifiedTime": 1563038567592,
+            "changeTime": 1563038612006,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c"
         }
     ],
     [
         "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 43507,
-            "modifiedTime": 1562398446193,
-            "changeTime": 1562398446193,
-            "contentHash": "1a9e2b8ac299cc1580437fa10b3dc9fff1874251",
             "isMetadataFile": true,
-            "state": "u",
+            "size": 42133,
+            "modifiedTime": 1563043462124,
+            "changeTime": 1563043462124,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "89a3f8111c14d0d26a078d04d319535c6893b718"
         }
     ],
     [
@@ -4527,6 +4520,19 @@
             "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\objects\\Vote__c\\fields\\Candidate_Name__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\arodenbeck\\beepball\\beepball\\force-app\\main\\default\\objects\\Vote__c\\fields\\Candidate_Name__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 373,
+            "modifiedTime": 1563044762792,
+            "changeTime": 1563044762792,
+            "contentHash": "f15967b36d9ab4d2a7be18ee320ffbf8b6e8f639",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]
