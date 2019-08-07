@@ -7,7 +7,7 @@ private class VotingTest
     insert nbbaAccount;
     // Insert contacts
     List<Contact> contacts = new List<Contact>();
-    for(Integer i = 0, i < 3, i++)
+    for(Integer i = 0; i < 3; i++)
     {
       Contact playerContact = new Contact(FirstName='player', LastName=i.format(), Account=nbbaAccount);
       contacts.add(playerContact);
@@ -15,7 +15,7 @@ private class VotingTest
     insert contacts;
     // Create teams
     List<Team__c> teams = new List<Team__c>();
-    for(Integer i = 0, i < 3, i++)
+    for(Integer i = 0; i < 3; i++)
     {
       Team__c team = new Team__c();
       team.Name = i.format();
@@ -25,7 +25,7 @@ private class VotingTest
     insert teams;
     // Create Members
     List<Member__c> members = new List<Member__c>();
-    for(Integer i = 0, i < 3, i++)
+    for(Integer i = 0; i < 3; i++)
     {
       Member__c member = new Member__c();
       member.Team__c = teams[i];
