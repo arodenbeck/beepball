@@ -19,7 +19,7 @@ private class VotingTest
     {
       Team__c team = new Team__c();
       team.Name = i.format();
-      team.Account__c = nbbaAccount;
+      team.Account__c = nbbaAccount.Id;
       teams.add(team);
     }  // End teams loop
     insert teams;
@@ -28,8 +28,8 @@ private class VotingTest
     for(Integer i = 0; i < 3; i++)
     {
       Member__c member = new Member__c();
-      member.Team__c = teams[i];
-      member.Contact__c = contacts[i];
+      member.Team__c = teams[i].Id;
+      member.Contact__c = contacts[i].Id;
       member.Year__c = '2019';
       member.Name = contact.Name + ' ' + member.Team__r.Name + ' ' + member.Year__c;
       members.add(member);
