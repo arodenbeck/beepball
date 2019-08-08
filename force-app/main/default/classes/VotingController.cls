@@ -46,7 +46,7 @@ public String ballotInitiativeTitle { get;set; }
     List<Ballot__c> databaseBallots = [select Id,Name,Election__c from Ballot__c where Name like :pageVoterId];
     if(databaseBallots.isEmpty())
     {
-      
+      ApexPages.Message searchError = new ApexPages.Message(ApexPages.Severity.ERROR, 'Your ballot could not be located!', '', 'voterIdInput');
     }  // End if databaseBallots is empty
     else
     {
@@ -65,8 +65,9 @@ public String ballotInitiativeTitle { get;set; }
       }  // End votes loop
 
       fetchBallotInitiatives(ballot.Election__c);
+      renderCurrentInitiative();
     }  // End else databaseBallots is not empty
-    return renderCurrentInitiative();
+    return null;
   }  // End findBallot method
   public PageReference renderNext()
   {
