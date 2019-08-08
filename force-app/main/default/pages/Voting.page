@@ -3,7 +3,7 @@
   <apex:outputPanel id="voterIdSearch" layout="block" rendered="{!isVoterIdSearchVisible}" >
     <apex:form id="voterIdForm" >
       <apex:outputLabel for="voterIdInput" value="Voter Id: " />
-      <apex:message for="voterIdInput" />
+      <apex:message for="voterIdInput" id="voterIdError" />
       <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" />
       <br/><br/>
       <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPage" />
@@ -12,6 +12,7 @@
   <apex:outputPanel id="electionContainer" rendered="{!isElectionVisible}" layout="block" >
     <apex:form id="electionForm" >
       <h2>{!ballotInitiativeTitle}</h2>
+      <apex:message id="votingErrorMessage" />
       <apex:dataTable value="{!initiativeSelections}" var="selection" >
         <apex:column headerValue="Vote" >
           <apex:inputCheckbox value="{!selection.vote}" label="{!selection.voteTitle}" />

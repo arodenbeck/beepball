@@ -46,7 +46,7 @@ public String ballotInitiativeTitle { get;set; }
     List<Ballot__c> databaseBallots = [select Id,Name,Election__c from Ballot__c where Name like :pageVoterId];
     if(databaseBallots.isEmpty())
     {
-      ApexPages.Message searchError = new ApexPages.Message(ApexPages.Severity.ERROR, 'Your ballot could not be located!', '', 'voterIdInput');
+      ApexPages.Message searchError = new ApexPages.Message(ApexPages.Severity.ERROR, 'Your ballot could not be located!', '', 'voterIdError');
     }  // End if databaseBallots is empty
     else
     {
@@ -138,7 +138,20 @@ public String ballotInitiativeTitle { get;set; }
   }  // End displayVotes method
   public PageReference validate()
   {
-    
+    Ballot_Initiative__c ballotInitiative = ballotInitiatives[intCurrentInitiative];
+    Integer intNumChosenVotes = 0;
+    String errorString = 'You may only check ' + ballotInitiative.Votes_Allowed__c + ' items.';
+    ApexPages.Message voteErrorMessage = new ApexPages.Message(ApexPages.Severity.ERROR, errorString, '', 'votingErrorMessage');
+    for(VotingSelection votingSelection : votingSelectionsByInitiativeId.get(currentInitiativeId))
+    {
+      if(votingSelection.vote)
+      {
+        intNumChosenVotes++;
+      }  // End if vote selected
+    }  // End votingSelections loop
+    if(intNumChosenVotes > ballotInitiative.Votes_Allowed__c)
+    {
+    }  // End if intNumChosenVotes is greater than votes allowed
     return null;
   }  // End validate method
   public PageReference submitVote()
