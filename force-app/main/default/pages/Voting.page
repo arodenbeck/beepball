@@ -3,6 +3,7 @@
   <apex:outputPanel id="voterIdSearch" layout="block" rendered="{!isVoterIdSearchVisible}" >
     <apex:form id="voterIdForm" >
       <apex:outputLabel for="voterIdInput" value="Voter Id: " />
+      <apex:message for="voterIdInput" />
       <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" />
       <br/><br/>
       <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPage" />
