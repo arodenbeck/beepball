@@ -82,9 +82,34 @@ private class VotingTest
       }  // End double for loop
     }  // End candidates loop
     insert ballotSelections;
+    // Create Ballot__c
+    Ballot__c testBallot = new Ballot__c(name='123456', Election__c=election.Id, Status__c='Open');
+    insert testBallot;
   }  // End setup method
   @isTest static void testSearchField()
   {
-    
+    PageReference pageRef = Page.Voting;
+    Test.setCurrentPage(pageRef);
+    VotingController votingCon = new VotingController();
+    votingCon.pageVoterId = '123456';
+    votingCon.findBallot();
+    System.assertEquals(true, votingCon.isElectionVisible);
   }  // End testSearchField method
+  @isTest static void testBallotNotFound()
+  {
+    PageReference pageRef = Page.Voting;
+    Test.setCurrentPage(pageRef);
+    VotingController votingCon = new VotingController();
+    votingCon.pageVoterId = 'asdf';
+    votingCon.findBallot();
+    System.assertEquals(false, votingCon.isElectionVisible);
+  }  // End testBallotNotFound method
+  @isTest static void testSearchUrlParameter()
+  {
+    PageReference pageRef = Page.Voting;
+    Test.setCurrentPage(pageRef);
+    ApexPages.currentPage().getParameters().put('voterId', '123456');
+    VotingController votingCon = new VotingController();
+    System.assertEquals(true, votingCon.isElectionVisible);
+  }  // End testUrlParameter method
 }  // End VotingTest class
