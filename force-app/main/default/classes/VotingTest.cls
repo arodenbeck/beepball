@@ -43,7 +43,8 @@ private class VotingTest
       candidate.Name = contact.Name;
       candidate.Contact__c = contact.Id;
       candidates.add(candidate);
-    }
+    }  // End contacts loop
+    insert candidates;
     // Create Election__c
     Election__c election = new election__c();
     election.name = 'test election';
