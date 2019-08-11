@@ -32,46 +32,40 @@
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1564465075228,
-            "changeTime": 1564465075228,
-            "contentHash": "3922830fce7295b291eb22bc64076568b6eaa259",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1565547001050,
+            "changeTime": 1565547001050,
+            "contentHash": "6cd7c32bf7a4ee78e18b2c7dafe88629cedc618c"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\applications",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\applications",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1564430365073,
-            "changeTime": 1564430365073,
-            "contentHash": "1510db0b7fe6700c0e42bbe119a9b1ecb7b53eaf",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1565547001007,
+            "changeTime": 1565547001007,
+            "contentHash": "f568262c87e7d4e2f8eeb2e4ecc228f7a1c503ef"
         }
     ],
     [
         "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\applications\\Beepball.app-meta.xml",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\applications\\Beepball.app-meta.xml",
             "isDirectory": false,
-            "size": 643,
-            "modifiedTime": 1564430365073,
-            "changeTime": 1564430365073,
-            "contentHash": "8fd431c11deeca6c968f5b3ad9a0d7fa1c5ad9d0",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 590,
+            "modifiedTime": 1565547001003,
+            "changeTime": 1565547001003,
+            "contentHash": "ca80ca4639e7ba67a95d885b626b6bae6772c686"
         }
     ],
     [
@@ -4292,10 +4286,10 @@
             "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\permissionsets\\Beepball.permissionset-meta.xml",
             "isDirectory": false,
             "isMetadataFile": true,
-            "size": 20728,
-            "modifiedTime": 1565545221061,
-            "changeTime": 1565545221061,
-            "contentHash": "bc4c379b7a2619824c16440609ad2f2d140bc91b"
+            "size": 20875,
+            "modifiedTime": 1565547001039,
+            "changeTime": 1565547001039,
+            "contentHash": "fd95eae54629b4cf4d016422c5ac6aed9679d8ab"
         }
     ],
     [
@@ -4551,6 +4545,45 @@
             "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\applications\\Beepball_Lightning.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\applications\\Beepball_Lightning.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 985,
+            "modifiedTime": 1565547001007,
+            "changeTime": 1565547001007,
+            "contentHash": "15b3c6b87b9d0b2e863b1beacae3ea341b2c59b1"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\appMenus\\AppSwitcher.appMenu-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\appMenus\\AppSwitcher.appMenu-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2116,
+            "modifiedTime": 1565547001052,
+            "changeTime": 1565547001052,
+            "contentHash": "5567d37e8c4f9d4765ac818991d7d359d4ff01eb"
+        }
+    ],
+    [
+        "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\appMenus",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\adrod\\Documents\\development\\beepball-voting\\beepball-1\\force-app\\main\\default\\appMenus",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1565547001052,
+            "changeTime": 1565547001052,
+            "contentHash": "7c65d70563206b380e20367663fe2cc611131a2d"
         }
     ]
 ]
