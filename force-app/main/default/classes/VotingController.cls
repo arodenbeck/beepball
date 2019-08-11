@@ -8,10 +8,13 @@ public String ballotInitiativeTitle { get;set; }
   public boolean isVoteVerificationVisible { get;set; }
   public boolean isNextDisabled { get;set; }
   public boolean isPreviousDisabled { get;set; }
+  public boolean isVoteInError { get;set; }
   private Ballot__c ballot;
+  private Ballot_Initiative__c currentInitiative;
   private Integer initiativeCount;
   private Integer intCurrentInitiative;
   private Id currentInitiativeId;
+  private String setFocusId;
   private List<Ballot_Initiative__c> ballotInitiatives;
   private map<id, List<Vote__c>> votesByInitiativeId;
   private Map<Id, List<VotingSelection>> votingSelectionsByInitiativeId;
@@ -22,7 +25,9 @@ public String ballotInitiativeTitle { get;set; }
     votesForSubmission = new List<Vote__c>();
     isVoterIdSearchVisible = true;
     isElectionVisible = false;
+    isVoteInError = false;
     ballotInitiativeTitle = '';
+    setFocusId = 'initiativeTitle';
     String urlVoterId = ApexPages.currentPage().getParameters().get('voterId');
     if(!String.isBlank(urlVoterId))
     {
@@ -41,6 +46,14 @@ public String ballotInitiativeTitle { get;set; }
     internalVotingSelections.clear();
     internalVotingSelections.addAll(newVotingSelections);
   }  // End InitiativeSelections setter method
+  public String getSetFocusId()
+  {
+    return setFocusId;
+  }  // End setFocusId getter method
+  public Integer getVotesAllowed()
+  {
+    return currentInitiative.Votes_Allowed__c.intValue();
+  }  // End votesAllowed getter method
   public PageReference findBallot()
   {
     List<Ballot__c> databaseBallots = [select Id,Name,Election__c from Ballot__c where Name like :pageVoterId];
@@ -77,22 +90,23 @@ public String ballotInitiativeTitle { get;set; }
       isNextDisabled = true;
       intCurrentInitiative = (initiativeCount - 1);
     }  // End if intCurrentInitiative greater or equal to intiaitiveCount
-    return null;
+    return renderCurrentInitiative();
   }  // End renderNext method
   public PageReference renderPrevious()
   {
     intCurrentInitiative--;
-    if(intCurrentInitiative > 0)
+    if(intCurrentInitiative < 0)
     {
       isPreviousDisabled = true;
     intCurrentInitiative = 0;
     }  // End if intCurrentInitiative less than 0
-    return null;
+    return renderCurrentInitiative();
   }  // End renderPrevious method
   public PageReference renderCurrentInitiative()
   {
-    currentInitiativeId = ballotInitiatives[intCurrentInitiative].Id;
-    ballotInitiativeTitle = ballotInitiatives[intCurrentInitiative].Name;
+    currentInitiative = ballotInitiatives[intCurrentInitiative];
+    currentInitiativeId = currentInitiative.Id;
+    ballotInitiativeTitle = currentInitiative.Name;
     if(intCurrentInitiative > 0)
     {
       isPreviousDisabled = false;
@@ -141,7 +155,7 @@ public String ballotInitiativeTitle { get;set; }
     Ballot_Initiative__c ballotInitiative = ballotInitiatives[intCurrentInitiative];
     Integer intNumChosenVotes = 0;
     String errorString = 'You may only check ' + ballotInitiative.Votes_Allowed__c + ' items.';
-    ApexPages.Message voteErrorMessage = new ApexPages.Message(ApexPages.Severity.ERROR, errorString, '', 'votingErrorMessage');
+    ApexPages.Message voteErrorMessage = new ApexPages.Message(ApexPages.Severity.ERROR, errorString);
     for(VotingSelection votingSelection : votingSelectionsByInitiativeId.get(currentInitiativeId))
     {
       if(votingSelection.vote)
@@ -151,6 +165,8 @@ public String ballotInitiativeTitle { get;set; }
     }  // End votingSelections loop
     if(intNumChosenVotes > ballotInitiative.Votes_Allowed__c)
     {
+      isVoteInError = true;
+      ApexPages.addMessage(voteErrorMessage);
     }  // End if intNumChosenVotes is greater than votes allowed
     return null;
   }  // End validate method

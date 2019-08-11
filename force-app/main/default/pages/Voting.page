@@ -10,10 +10,15 @@
     </apex:form> 
   </apex:outputPanel>
   <apex:outputPanel id="electionContainer" rendered="{!isElectionVisible}" layout="block" >
-    <apex:form id="electionForm" >
-      <h2>{!ballotInitiativeTitle}</h2>
-      <apex:message id="votingErrorMessage" />
-      <apex:dataTable value="{!initiativeSelections}" var="selection" >
+      <h2>{!ballotInitiativeTitle} id="initiativeTitle" tabindex="-1" aria-describedby="initiativeDescription"</h2>
+      <div aria-live="assertive" >
+        <apex:messages id="votingErrorMessage" rendered="[!isVoteInError}" />
+      </div>
+      <p id="initiativeDescription">
+        You may vote for up to {!votesAllowed} item(s)
+      </p>
+      <apex:form id="electionForm" >
+        <apex:dataTable value="{!initiativeSelections}" var="selection" >
         <apex:column headerValue="Vote" >
           <apex:inputCheckbox value="{!selection.vote}" label="{!selection.voteTitle}" />
         </apex:column>
@@ -21,8 +26,8 @@
           <apex:outputText value="{!selection.voteTitle}" />
         </apex:column>
       </apex:dataTable>
-      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionContainer" value="<- Previous" /> 
-      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionContainer" value="Next ->" /> 
+      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionContainer" value="<- Previous" oncomplete="focusCurrentInitiative();" /> 
+      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionContainer" value="Next ->" oncomplete="focusCurrentInitiative();" /> 
     </apex:form>
   </apex:outputPanel>
   <apex:outputPanel id="voteSubmission" layout="block" rendered="{!isVoteVerificationVisible}" >
@@ -43,4 +48,9 @@
      <apex:commandButton action="{!submitVote}" value="Submit Vote" rerender="voteSubmission" /> 
    </apex:form> 
  </apex:outputPanel>
+ <script type="text/javascript" >
+   function focusCurrentInitiative() {
+     document.getElementById('{!$setFocusId}').focus();
+   }  // End focusCurrentInitiative method
+ </script>
 </apex:page>
