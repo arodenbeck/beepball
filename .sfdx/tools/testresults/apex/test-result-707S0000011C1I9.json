@@ -1,0 +1,94 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 3,
+        "passing": 0,
+        "failing": 3,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Aug 7, 2019 8:59 PM",
+        "testExecutionTime": "0 ms",
+        "testTotalTime": "0 ms",
+        "commandTime": "3563 ms",
+        "hostname": "https://customer-power-2221-dev-ed.cs1.my.salesforce.com",
+        "orgId": "00DS0000003LytqMAC",
+        "username": "test-lwclfkhntiis@example.com",
+        "testRunId": "707S0000011C1I9",
+        "userId": "005S000000IO49LIAT"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07MS0000007cV51MAE"
+            },
+            "Id": "07MS0000007cV51MAE",
+            "QueueItemId": "709S0000000xriRIAQ",
+            "StackTrace": "Class.VotingTest.setup: line 88, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Ballot_Initiative__c]: [Ballot_Initiative__c]",
+            "AsyncApexJobId": "707S0000011C1I9IAK",
+            "MethodName": "testBallotNotFound",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01pS0000003Ae4qIAC"
+                },
+                "Id": "01pS0000003Ae4qIAC",
+                "Name": "VotingTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": null,
+            "FullName": "VotingTest.testBallotNotFound"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07MS0000007cV52MAE"
+            },
+            "Id": "07MS0000007cV52MAE",
+            "QueueItemId": "709S0000000xriRIAQ",
+            "StackTrace": "Class.VotingTest.setup: line 88, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Ballot_Initiative__c]: [Ballot_Initiative__c]",
+            "AsyncApexJobId": "707S0000011C1I9IAK",
+            "MethodName": "testSearchField",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01pS0000003Ae4qIAC"
+                },
+                "Id": "01pS0000003Ae4qIAC",
+                "Name": "VotingTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": null,
+            "FullName": "VotingTest.testSearchField"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07MS0000007cV53MAE"
+            },
+            "Id": "07MS0000007cV53MAE",
+            "QueueItemId": "709S0000000xriRIAQ",
+            "StackTrace": "Class.VotingTest.setup: line 88, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Ballot_Initiative__c]: [Ballot_Initiative__c]",
+            "AsyncApexJobId": "707S0000011C1I9IAK",
+            "MethodName": "testSearchUrlParameter",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01pS0000003Ae4qIAC"
+                },
+                "Id": "01pS0000003Ae4qIAC",
+                "Name": "VotingTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": null,
+            "FullName": "VotingTest.testSearchUrlParameter"
+        }
+    ]
+}

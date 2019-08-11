@@ -52,6 +52,19 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Member</label>
+    <nameField>
+        <label>Member Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Members</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Year__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Contact__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
@@ -90,7 +103,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Member</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -100,16 +112,4 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <nameField>
-        <label>Member Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Members</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Team__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Year__c</customTabListAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

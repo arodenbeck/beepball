@@ -1,0 +1,56 @@
+<apex:page showHeader="false" controller="votingController" title="NBBA Election Voting System" >
+  <h1>Welcome to the NBBA Election System</h1>
+  <apex:outputPanel id="voterIdSearch" layout="block" rendered="{!isVoterIdSearchVisible}" >
+    <apex:form id="voterIdForm" >
+      <apex:outputLabel for="voterIdInput" value="Voter Id: " />
+      <apex:message for="voterIdInput" id="voterIdError" />
+      <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" />
+      <br/><br/>
+      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPage" />
+    </apex:form> 
+  </apex:outputPanel>
+  <apex:outputPanel id="electionContainer" rendered="{!isElectionVisible}" layout="block" >
+      <h2>{!ballotInitiativeTitle} id="initiativeTitle" tabindex="-1" aria-describedby="initiativeDescription"</h2>
+      <div aria-live="assertive" >
+        <apex:messages id="votingErrorMessage" rendered="[!isVoteInError}" />
+      </div>
+      <p id="initiativeDescription">
+        You may vote for up to {!votesAllowed} item(s)
+      </p>
+      <apex:form id="electionForm" >
+        <apex:dataTable value="{!initiativeSelections}" var="selection" >
+        <apex:column headerValue="Vote" >
+          <apex:inputCheckbox value="{!selection.vote}" label="{!selection.voteTitle}" />
+        </apex:column>
+        <apex:column headerValue="Choice" >
+          <apex:outputText value="{!selection.voteTitle}" />
+        </apex:column>
+      </apex:dataTable>
+      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionContainer" value="<- Previous" oncomplete="focusCurrentInitiative();" /> 
+      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionContainer" value="Next ->" oncomplete="focusCurrentInitiative();" /> 
+    </apex:form>
+  </apex:outputPanel>
+  <apex:outputPanel id="voteSubmission" layout="block" rendered="{!isVoteVerificationVisible}" >
+    <apex:form id="submissionForm" >
+      <apex:dataTable value="{!votesForSubmission}" var="vote" >
+        <apex:column headerValue="Your Vote" >
+          <apex:outputPanel layout="block" rendered="{!(vote.Candidate__c == null)}">
+            <apex:outputField value="{!vote.Affirmative__c}" />
+          </apex:outputPanel>
+          <apex:outputPanel layout="block" rendered="{!(not(vote.Candidate__c == null))}">
+            <apex:outputField value="{!vote.Candidate_Name__c}" />
+          </apex:outputPanel>
+        </apex:column> 
+        <apex:column headerValue="Choice" >
+          <apex:outputText value="{!vote.Name}" /> 
+       </apex:column> 
+     </apex:dataTable> 
+     <apex:commandButton action="{!submitVote}" value="Submit Vote" rerender="voteSubmission" /> 
+   </apex:form> 
+ </apex:outputPanel>
+ <script type="text/javascript" >
+   function focusCurrentInitiative() {
+     document.getElementById('{!setFocusId}').focus();
+   }  // End focusCurrentInitiative method
+ </script>
+</apex:page>

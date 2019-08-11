@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-08-07T20:46:26-07:00" hostname="https://customer-power-2221-dev-ed.cs1.my.salesforce.com" tests="3" failures="3"  errors="0"  time="0">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="3"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="3"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Aug 7, 2019 8:46 PM"/>
+            <property name="testExecutionTime" value="0 s"/>
+            <property name="testTotalTime" value="0 s"/>
+            <property name="commandTime" value="3.43 s"/>
+            <property name="hostname" value="https://customer-power-2221-dev-ed.cs1.my.salesforce.com"/>
+            <property name="orgId" value="00DS0000003LytqMAC"/>
+            <property name="username" value="test-lwclfkhntiis@example.com"/>
+            <property name="testRunId" value="707S0000011C0yL"/>
+            <property name="userId" value="005S000000IO49LIAT"/>
+        </properties>
+        <testcase name="testBallotNotFound" classname="VotingTest" time="0">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Candidate_Profile__c]: [Candidate_Profile__c]"><![CDATA[Class.VotingTest.setup: line 84, column 1]]></failure>
+        </testcase>
+        <testcase name="testSearchField" classname="VotingTest" time="0">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Candidate_Profile__c]: [Candidate_Profile__c]"><![CDATA[Class.VotingTest.setup: line 84, column 1]]></failure>
+        </testcase>
+        <testcase name="testSearchUrlParameter" classname="VotingTest" time="0">
+            <failure message="System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [Candidate_Profile__c]: [Candidate_Profile__c]"><![CDATA[Class.VotingTest.setup: line 84, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -42,19 +42,6 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Standard_TS_Compact_Layout</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Standard_TS_Compact_Layout</fullName>
-        <fields>Name</fields>
-        <fields>Contact__c</fields>
-        <fields>Games__c</fields>
-        <fields>Batting_Average__c</fields>
-        <fields>Strike_Out_Percentage__c</fields>
-        <fields>Put_Outs_Per_Game__c</fields>
-        <fields>At_Bats__c</fields>
-        <fields>Runs__c</fields>
-        <fields>Put_Outs__c</fields>
-        <label>Standard TS Compact Layout</label>
-    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Holds final tournament statistics for each player.</description>
     <enableActivities>false</enableActivities>
@@ -65,6 +52,23 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Tournament Stat</label>
+    <nameField>
+        <label>Tournament Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Tournament Stats</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
+        <listViewButtons>Process_Selected_Stats</listViewButtons>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Team_Name__c</searchFilterFields>
+        <searchFilterFields>Year__c</searchFilterFields>
+        <searchFilterFields>Member__c</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>At_Bats__c</fullName>
         <description>The number of times a player has been at bat.</description>
@@ -181,6 +185,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Strike_Outs__c</fullName>
+        <description>The number of times a player strikes out.</description>
+        <externalId>false</externalId>
+        <label>Strike Outs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Strike_Out_Percentage__c</fullName>
         <description>The strike percentage</description>
         <externalId>false</externalId>
@@ -196,20 +212,8 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Strike_Outs__c</fullName>
-        <description>The number of times a player strikes out.</description>
-        <externalId>false</externalId>
-        <label>Strike Outs</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Team_Name__c</fullName>
-        <description>Name of the player&apos;s team.</description>
+        <description>Name of the player&#39;s team.</description>
         <externalId>false</externalId>
         <label>Team Name</label>
         <length>80</length>
@@ -255,7 +259,32 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Tournament Stat</label>
+    <compactLayouts>
+        <fullName>Standard_TS_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Contact__c</fields>
+        <fields>Games__c</fields>
+        <fields>Batting_Average__c</fields>
+        <fields>Strike_Out_Percentage__c</fields>
+        <fields>Put_Outs_Per_Game__c</fields>
+        <fields>At_Bats__c</fields>
+        <fields>Runs__c</fields>
+        <fields>Put_Outs__c</fields>
+        <label>Standard TS Compact Layout</label>
+    </compactLayouts>
+    <webLinks>
+        <fullName>Process_Selected_Stats</fullName>
+        <availability>online</availability>
+        <description>Processes the selected stats to match them with their related Team, Membership, and contact records.</description>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Process Selected Stats</masterLabel>
+        <openType>sidebar</openType>
+        <page>ProcessTournamentStats</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -305,33 +334,4 @@
         </filters>
         <label>2016 Stats</label>
     </listViews>
-    <nameField>
-        <label>Tournament Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Tournament Stats</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Team__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Contact__c</customTabListAdditionalFields>
-        <listViewButtons>Process_Selected_Stats</listViewButtons>
-        <searchFilterFields>NAME</searchFilterFields>
-        <searchFilterFields>Team_Name__c</searchFilterFields>
-        <searchFilterFields>Year__c</searchFilterFields>
-        <searchFilterFields>Member__c</searchFilterFields>
-    </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
-    <webLinks>
-        <fullName>Process_Selected_Stats</fullName>
-        <availability>online</availability>
-        <description>Processes the selected stats to match them with their related Team, Membership, and contact records.</description>
-        <displayType>massActionButton</displayType>
-        <height>600</height>
-        <linkType>page</linkType>
-        <masterLabel>Process Selected Stats</masterLabel>
-        <openType>sidebar</openType>
-        <page>ProcessTournamentStats</page>
-        <protected>false</protected>
-        <requireRowSelection>true</requireRowSelection>
-    </webLinks>
 </CustomObject>

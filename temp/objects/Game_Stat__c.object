@@ -42,17 +42,6 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Standard_Game_Stat</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Standard_Game_Stat</fullName>
-        <fields>Number__c</fields>
-        <fields>Player_Name__c</fields>
-        <fields>At_Bats__c</fields>
-        <fields>Batting_Average__c</fields>
-        <fields>Runs__c</fields>
-        <fields>Strike_Outs__c</fields>
-        <fields>Put_Outs__c</fields>
-        <label>Standard Game Stat</label>
-    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -62,6 +51,32 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Game Stat</label>
+    <nameField>
+        <label>Game Stat Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Game Stats</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Player_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>At_Bats__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Runs__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Strike_Outs__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Put_Outs__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Number__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Player_Name__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Player_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>At_Bats__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Runs__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Strike_Outs__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Put_Outs__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>At_Bats__c</fullName>
         <externalId>false</externalId>
@@ -165,7 +180,17 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Game Stat</label>
+    <compactLayouts>
+        <fullName>Standard_Game_Stat</fullName>
+        <fields>Number__c</fields>
+        <fields>Player_Name__c</fields>
+        <fields>At_Bats__c</fields>
+        <fields>Batting_Average__c</fields>
+        <fields>Runs__c</fields>
+        <fields>Strike_Outs__c</fields>
+        <fields>Put_Outs__c</fields>
+        <label>Standard Game Stat</label>
+    </compactLayouts>
     <listViews>
         <fullName>All</fullName>
         <columns>Game__c</columns>
@@ -179,29 +204,4 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <nameField>
-        <label>Game Stat Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Game Stats</pluralLabel>
-    <searchLayouts>
-        <customTabListAdditionalFields>Number__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Player_Name__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>At_Bats__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Runs__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Strike_Outs__c</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Put_Outs__c</customTabListAdditionalFields>
-        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
-        <excludedStandardButtons>Accept</excludedStandardButtons>
-        <lookupDialogsAdditionalFields>Number__c</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Player_Name__c</lookupDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Number__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Player_Name__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>At_Bats__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Runs__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Strike_Outs__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Put_Outs__c</searchResultsAdditionalFields>
-    </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

@@ -1,0 +1,35 @@
+=== Test Reports
+FORMAT  FILE
+──────  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     c:\Users\adrod\Documents\development\beepball-voting\beepball-1\.sfdx\tools\testresults\apex\test-result.txt
+txt     c:\Users\adrod\Documents\development\beepball-voting\beepball-1\.sfdx\tools\testresults\apex\test-run-id.txt
+junit   c:\Users\adrod\Documents\development\beepball-voting\beepball-1\.sfdx\tools\testresults\apex\test-result-707S0000011C1iz-junit.xml
+json    c:\Users\adrod\Documents\development\beepball-voting\beepball-1\.sfdx\tools\testresults\apex\test-result-707S0000011C1iz.json
+
+=== Test Results
+TEST NAME                          OUTCOME  MESSAGE  RUNTIME (MS)
+─────────────────────────────────  ───────  ───────  ────────────
+VotingTest.testBallotNotFound      Pass              88
+VotingTest.testSearchField         Pass              44
+VotingTest.testSearchUrlParameter  Pass              23
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ─────────────────────────────────────────────────────────
+Outcome              Passed
+Tests Ran            3
+Passing              3
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Aug 7, 2019 9:09 PM
+Test Execution Time  155 ms
+Test Total Time      155 ms
+Command Time         1702 ms
+Hostname             https://customer-power-2221-dev-ed.cs1.my.salesforce.com
+Org Id               00DS0000003LytqMAC
+Username             test-lwclfkhntiis@example.com
+Test Run Id          707S0000011C1iz
+User Id              005S000000IO49LIAT
+

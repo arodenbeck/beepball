@@ -51,6 +51,15 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Game</label>
+    <nameField>
+        <label>Game Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Games</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Away_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -88,13 +97,4 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <label>Game</label>
-    <nameField>
-        <label>Game Name</label>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Games</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

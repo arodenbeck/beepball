@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-08-07T21:09:58-07:00" hostname="https://customer-power-2221-dev-ed.cs1.my.salesforce.com" tests="3" failures="0"  errors="0"  time="0.16">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="3"/>
+            <property name="passing" value="3"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Aug 7, 2019 9:09 PM"/>
+            <property name="testExecutionTime" value="0.16 s"/>
+            <property name="testTotalTime" value="0.16 s"/>
+            <property name="commandTime" value="1.7 s"/>
+            <property name="hostname" value="https://customer-power-2221-dev-ed.cs1.my.salesforce.com"/>
+            <property name="orgId" value="00DS0000003LytqMAC"/>
+            <property name="username" value="test-lwclfkhntiis@example.com"/>
+            <property name="testRunId" value="707S0000011C1iz"/>
+            <property name="userId" value="005S000000IO49LIAT"/>
+        </properties>
+        <testcase name="testBallotNotFound" classname="VotingTest" time="0.09">
+        </testcase>
+        <testcase name="testSearchField" classname="VotingTest" time="0.04">
+        </testcase>
+        <testcase name="testSearchUrlParameter" classname="VotingTest" time="0.02">
+        </testcase>
+    </testsuite>
+</testsuites>

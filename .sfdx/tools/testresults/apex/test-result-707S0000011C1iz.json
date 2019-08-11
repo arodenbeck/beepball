@@ -1,0 +1,94 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 3,
+        "passing": 3,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Aug 7, 2019 9:09 PM",
+        "testExecutionTime": "155 ms",
+        "testTotalTime": "155 ms",
+        "commandTime": "1702 ms",
+        "hostname": "https://customer-power-2221-dev-ed.cs1.my.salesforce.com",
+        "orgId": "00DS0000003LytqMAC",
+        "username": "test-lwclfkhntiis@example.com",
+        "testRunId": "707S0000011C1iz",
+        "userId": "005S000000IO49LIAT"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07MS0000007cVDPMA2"
+            },
+            "Id": "07MS0000007cVDPMA2",
+            "QueueItemId": "709S0000000xrkOIAQ",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "707S0000011C1izIAC",
+            "MethodName": "testBallotNotFound",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01pS0000003Ae4qIAC"
+                },
+                "Id": "01pS0000003Ae4qIAC",
+                "Name": "VotingTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 88,
+            "FullName": "VotingTest.testBallotNotFound"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07MS0000007cVDQMA2"
+            },
+            "Id": "07MS0000007cVDQMA2",
+            "QueueItemId": "709S0000000xrkOIAQ",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "707S0000011C1izIAC",
+            "MethodName": "testSearchField",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01pS0000003Ae4qIAC"
+                },
+                "Id": "01pS0000003Ae4qIAC",
+                "Name": "VotingTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 44,
+            "FullName": "VotingTest.testSearchField"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07MS0000007cVDRMA2"
+            },
+            "Id": "07MS0000007cVDRMA2",
+            "QueueItemId": "709S0000000xrkOIAQ",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "707S0000011C1izIAC",
+            "MethodName": "testSearchUrlParameter",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01pS0000003Ae4qIAC"
+                },
+                "Id": "01pS0000003Ae4qIAC",
+                "Name": "VotingTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 23,
+            "FullName": "VotingTest.testSearchUrlParameter"
+        }
+    ]
+}

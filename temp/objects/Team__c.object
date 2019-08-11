@@ -42,12 +42,6 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Adam_Layout</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Adam_Layout</fullName>
-        <fields>Name</fields>
-        <fields>Account__c</fields>
-        <label>Adam Layout</label>
-    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -57,6 +51,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <label>Team</label>
+    <nameField>
+        <label>Team Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Teams</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -71,20 +75,16 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
-    <label>Team</label>
+    <compactLayouts>
+        <fullName>Adam_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Account__c</fields>
+        <label>Adam Layout</label>
+    </compactLayouts>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <nameField>
-        <label>Team Name</label>
-        <trackFeedHistory>true</trackFeedHistory>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Teams</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
