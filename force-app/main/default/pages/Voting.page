@@ -50,7 +50,7 @@
  </apex:outputPanel>
  <script type="text/javascript" >
    function focusCurrentInitiative() {
-     document.getElementById('{!$setFocusId}').focus();
+     document.getElementById('{!setFocusId}').focus();
    }  // End focusCurrentInitiative method
  </script>
 </apex:page>
