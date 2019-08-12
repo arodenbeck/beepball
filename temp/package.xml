@@ -3,6 +3,7 @@
   <types>
     <name>CustomApplication</name>
     <members>Beepball</members>
+    <members>Beepball_Lightning</members>
   </types>
   <types>
     <name>ApexClass</name>
