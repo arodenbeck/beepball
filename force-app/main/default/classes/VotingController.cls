@@ -59,7 +59,7 @@ public String ballotInitiativeTitle { get;set; }
     List<Ballot__c> databaseBallots = [select Id,Name,Election__c from Ballot__c where Name like :pageVoterId];
     if(databaseBallots.isEmpty())
     {
-      ApexPages.Message searchError = new ApexPages.Message(ApexPages.Severity.ERROR, 'Your ballot could not be located!', '', 'voterIdError');
+      ApexPages.Message searchError = new ApexPages.Message(ApexPages.Severity.ERROR, 'Your ballot could not be located!', '', 'voterIdInput');
     }  // End if databaseBallots is empty
     else
     {
@@ -203,7 +203,9 @@ public String ballotInitiativeTitle { get;set; }
           votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotSelection.Name, ballot.Id, ballotInitiative.Id, ballotSelection.Candidate_Profile__c));
         }  // End ballotSelections loop
       }  // End if has_selections is true
-      votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotInitiative.Name, ballot.Id, ballotInitiative.Id));
+      else {
+        votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotInitiative.Name, ballot.Id, ballotInitiative.Id));
+      }  // End else This is a single option Initiative
     }  // End ballot initiatives loop
   }  // End fetchBallotInitiatives
 

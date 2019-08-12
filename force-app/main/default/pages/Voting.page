@@ -6,11 +6,11 @@
       <apex:message for="voterIdInput" id="voterIdError" />
       <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" />
       <br/><br/>
-      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPage" />
+      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPage" oncomplete="focusCurrentInitiative();" />
     </apex:form> 
   </apex:outputPanel>
   <apex:outputPanel id="electionContainer" rendered="{!isElectionVisible}" layout="block" >
-      <h2>{!ballotInitiativeTitle} id="initiativeTitle" tabindex="-1" aria-describedby="initiativeDescription"</h2>
+      <h2 id="initiativeTitle" tabindex="-1" aria-describedby="initiativeDescription">{!ballotInitiativeTitle}</h2>
       <div aria-live="assertive" >
         <apex:messages id="votingErrorMessage" rendered="[!isVoteInError}" />
       </div>
