@@ -84,22 +84,12 @@ public String ballotInitiativeTitle { get;set; }
   }  // End findBallot method
   public PageReference renderNext()
   {
-    intCurrentInitiative++;
-    if(intCurrentInitiative >= initiativeCount)
-    {
-      isNextDisabled = true;
-      intCurrentInitiative = (initiativeCount - 1);
-    }  // End if intCurrentInitiative greater or equal to intiaitiveCount
+    validate(1);
     return renderCurrentInitiative();
   }  // End renderNext method
   public PageReference renderPrevious()
   {
-    intCurrentInitiative--;
-    if(intCurrentInitiative < 0)
-    {
-      isPreviousDisabled = true;
-    intCurrentInitiative = 0;
-    }  // End if intCurrentInitiative less than 0
+    validate(-1);
     return renderCurrentInitiative();
   }  // End renderPrevious method
   public PageReference renderCurrentInitiative()
@@ -150,7 +140,7 @@ public String ballotInitiativeTitle { get;set; }
     }  // End VotingSelections list loop
     return null;
   }  // End displayVotes method
-  public PageReference validate()
+  public void validate(Integer intNextOrPrev)
   {
     Ballot_Initiative__c ballotInitiative = ballotInitiatives[intCurrentInitiative];
     Integer intNumChosenVotes = 0;
@@ -168,7 +158,10 @@ public String ballotInitiativeTitle { get;set; }
       isVoteInError = true;
       ApexPages.addMessage(voteErrorMessage);
     }  // End if intNumChosenVotes is greater than votes allowed
-    return null;
+    else 
+    {
+      intCurrentInitiative + intNextOrPrev;
+    }  // End else advance the page
   }  // End validate method
   public PageReference submitVote()
     {
