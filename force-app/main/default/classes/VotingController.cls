@@ -66,19 +66,8 @@ public String selectedInitiative { get;set; }
     else
     {
       ballot = databaseBallots[0];
-     isElectionVisible = true;
+      isElectionVisible = true;
       isVoterIdSearchVisible = false;
-      votesByInitiativeId = new Map<id, List<Vote__c>>();
-      for(Vote__c vote : [select Id,Name,Affirmative__c,Ballot_Initiative__c,Candidate__c from Vote__c where Ballot_Id__c = :ballot.Id])
-      {
-          List<Vote__c> votesByInitiative = votesByInitiativeId.get(vote.Ballot_Initiative__c);
-          if(votesByInitiative == null)
-          {
-            votesByInitiativeId.put(vote.Ballot_Initiative__c, new List<Vote__c>());
-          }  // End if votesByInitiative is null
-          votesByInitiativeId.get(vote.Ballot_Initiative__c).add(vote);
-      }  // End votes loop
-
       fetchBallotInitiatives(ballot.Election__c);
       renderCurrentInitiative();
     }  // End else databaseBallots is not empty

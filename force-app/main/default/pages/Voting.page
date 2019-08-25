@@ -1,7 +1,6 @@
 <apex:page showHeader="false" controller="votingController" title="NBBA Election Voting System" >
   <h1>Welcome to the NBBA Election System</h1>
   <apex:outputPanel id="votingPageBody" >
-  <apex:outputPanel id="voterIdSearch" layout="block" >
     <apex:form id="voterIdForm" rendered="{!isVoterIdSearchVisible}" >
       <apex:outputLabel for="voterIdInput" value="Voter Id: " />
       <apex:message for="voterIdInput" id="voterIdError" />
@@ -9,8 +8,6 @@
       <br/><br/>
       <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPageBody" />
     </apex:form> 
-  </apex:outputPanel>
-  <apex:outputPanel id="electionContainer"  layout="block" >
     <apex:form id="electionForm" rendered="{!isElectionVisible}" >
       <h2 id="initiativeTitle" >{!ballotInitiativeTitle}</h2>
       <div aria-live="assertive" >
@@ -34,9 +31,7 @@
       <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionForm" value="<- Previous" /> 
       <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionForm" value="Next ->"  /> 
     </apex:form>
-  </apex:outputPanel>
-  <apex:outputPanel id="voteSubmission" layout="block" rendered="{!isVoteVerificationVisible}" >
-    <apex:form id="submissionForm" >
+    <apex:form id="submissionForm" rendered="{!isVoteVerificationVisible}" >
       <apex:dataTable value="{!votesForSubmission}" var="vote" >
         <apex:column headerValue="Your Vote" >
           <apex:outputPanel layout="block" rendered="{!(vote.Candidate__c == null)}">
@@ -52,11 +47,10 @@
      </apex:dataTable> 
      <apex:commandButton action="{!submitVote}" value="Submit Vote" rerender="voteSubmission" /> 
    </apex:form> 
- </apex:outputPanel>
   </apex:outputPanel>
- <script type="text/javascript" >
-   function focusCurrentInitiative() {
-     document.getElementById('{!setFocusId}').focus();
-   }  // End focusCurrentInitiative method
- </script>
+  <script type="text/javascript" >
+    function focusCurrentInitiative() {
+      document.getElementById('{!setFocusId}').focus();
+    }  // End focusCurrentInitiative method
+  </script>
 </apex:page>
