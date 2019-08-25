@@ -160,7 +160,7 @@ public String ballotInitiativeTitle { get;set; }
     }  // End if intNumChosenVotes is greater than votes allowed
     else 
     {
-      intCurrentInitiative + intNextOrPrev;
+      intCurrentInitiative += intNextOrPrev;
     }  // End else advance the page
   }  // End validate method
   public PageReference submitVote()
