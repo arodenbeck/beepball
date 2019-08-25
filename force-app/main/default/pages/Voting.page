@@ -10,17 +10,20 @@
     </apex:form> 
     <apex:form id="electionForm" rendered="{!isElectionVisible}" >
       <h2 id="initiativeTitle" >Initiative: {!ballotInitiativeTitle}</h2>
-      <div aria-live="assertive" >
-        <apex:messages id="votingErrorMessage" rendered="{!isVoteInError}" />
-      </div>
       <apex:selectList id="selectAvailableInitiatives" multiselect="false" label="Choose an initiative" value="{!selectedInitiative}" size="1" html-autofocus="true" html-aria-describedby="initiativeDescription" >
       <apex:selectOptions value="{!availableInitiatives}" />
     </apex:selectList>  
-    <apex:commandButton value="Go!" action="{!skipToInitiative}" rerender="electionForm" oncomplete="focusCurrentInitiative();" />
+    <apex:commandButton value="Go!" action="{!skipToInitiative}" rerender="electionForm" oncomplete="focusCurrentInitiative()" />
       <p id="initiativeDescription">
         You may vote for up to {!votesAllowed} item(s)
       </p>
-          <apex:dataTable value="{!initiativeSelections}" var="selection" >
+      <div aria-live="assertive" >
+        <apex:outputPanel rendered="{!isVoteInError}" >
+          <p>Errors in vote</p><br/>
+          <apex:messages id="votingErrorMessage" />
+        </apex:outputPanel>  
+      </div>
+            <apex:dataTable value="{!initiativeSelections}" var="selection" >
         <apex:column headerValue="Vote" >
           <apex:inputCheckbox value="{!selection.vote}" label="{!selection.voteTitle}" />
         </apex:column>
