@@ -30,7 +30,7 @@ public String selectedInitiative { get;set; }
     isElectionVisible = false;
     isVoteInError = false;
     ballotInitiativeTitle = '';
-    setFocusId = 'initiativeTitle';
+    setFocusId = 'selectAvailableInitiatives';
     String urlVoterId = ApexPages.currentPage().getParameters().get('voterId');
     if(!String.isBlank(urlVoterId))
     {
@@ -200,6 +200,7 @@ public String selectedInitiative { get;set; }
         votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotInitiative.Name, ballot.Id, ballotInitiative.Id));
       }  // End else This is a single option Initiative
     }  // End ballot initiatives loop
+    selectedInitiative = availableInitiatives[0].getLabel();
   }  // End fetchBallotInitiatives method
 
   public class VotingSelection

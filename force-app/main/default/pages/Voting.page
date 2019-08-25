@@ -6,17 +6,17 @@
       <apex:message for="voterIdInput" id="voterIdError" />
       <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" html-autoFocus="true" />
       <br/><br/>
-      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPageBody" />
+      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPageBody" oncomplete="focusCurrentInitiative();" />
     </apex:form> 
     <apex:form id="electionForm" rendered="{!isElectionVisible}" >
-      <h2 id="initiativeTitle" >{!ballotInitiativeTitle}</h2>
+      <h2 id="initiativeTitle" >Initiative: {!ballotInitiativeTitle}</h2>
       <div aria-live="assertive" >
-        <apex:messages id="votingErrorMessage" rendered="[!isVoteInError}" />
+        <apex:messages id="votingErrorMessage" rendered="{!isVoteInError}" />
       </div>
-      <apex:selectList multiselect="false" label="Choose an initiative" value="{!selectedInitiative}" html-autoFocus="True" html-aria-describedby="initiativeDescription" >
+      <apex:selectList id="selectAvailableInitiatives" multiselect="false" label="Choose an initiative" value="{!selectedInitiative}" html-aria-describedby="initiativeDescription" >
       <apex:selectOptions value="{!availableInitiatives}" />
     </apex:selectList>  
-    <apex:commandButton value="Go!" action="{!skipToInitiative}" rerender="electionForm" />
+    <apex:commandButton value="Go!" action="{!skipToInitiative}" rerender="electionForm" oncomplete="focusCurrentInitiative();" />
       <p id="initiativeDescription">
         You may vote for up to {!votesAllowed} item(s)
       </p>
@@ -28,8 +28,8 @@
           <apex:outputText value="{!selection.voteTitle}" />
         </apex:column>
       </apex:dataTable>
-      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionForm" value="<- Previous" /> 
-      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionForm" value="Next ->"  /> 
+      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionForm" value="<- Previous" oncomplete="focusCurrentInitiative();" /> 
+      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionForm" value="Next ->" onComplete="focusCurrentInitiative();" /> 
     </apex:form>
     <apex:form id="submissionForm" rendered="{!isVoteVerificationVisible}" >
       <apex:dataTable value="{!votesForSubmission}" var="vote" >
