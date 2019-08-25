@@ -1,8 +1,10 @@
 public with sharing class VotingController 
 {
   public List<Vote__c> votesForSubmission { get;set; }
+  public List<SelectOption> availableInitiatives { get;set; }
   public String pageVoterId { get;set; }
 public String ballotInitiativeTitle { get;set; }
+public String selectedInitiative { get;set; }
   public boolean isVoterIdSearchVisible { get;set; }
   public boolean isElectionVisible { get;set; }
   public boolean isVoteVerificationVisible { get;set; }
@@ -115,6 +117,11 @@ public String ballotInitiativeTitle { get;set; }
     }  // End else disable Next
     return null;
   }  // End renderCurrentInitiative method
+  public PageReference skipToInitiative()
+  {
+    intCurrentInitiative = Integer.valueOf(selectedInitiative);
+    return renderCurrentInitiative();
+  }  // End skipToInitiative method
   public PageReference displayVotes()
   {
     isVoteVerificationVisible = true;
@@ -140,7 +147,7 @@ public String ballotInitiativeTitle { get;set; }
     }  // End VotingSelections list loop
     return null;
   }  // End displayVotes method
-  public void validate(Integer intNextOrPrev)
+  private void validate(Integer intNextOrPrev)
   {
     Ballot_Initiative__c ballotInitiative = ballotInitiatives[intCurrentInitiative];
     Integer intNumChosenVotes = 0;
@@ -182,8 +189,11 @@ public String ballotInitiativeTitle { get;set; }
     from Ballot_Initiative__c where Election__c = :electionId];
     initiativeCount = ballotInitiatives.size();
     intCurrentInitiative = 0;
+    Integer intCounter = 0;
     for(Ballot_Initiative__c ballotInitiative : ballotInitiatives)
     {
+      availableInitiatives.add(new SelectOption(intCounter.format(), ballotInitiative.Name));
+      intCounter++;
       List<VotingSelection> votingSelections = votingSelectionsByInitiativeId.get(ballotInitiative.Id);
       if(votingSelections == null)
       {
@@ -200,7 +210,7 @@ public String ballotInitiativeTitle { get;set; }
         votingSelectionsByInitiativeId.get(ballotInitiative.Id).add(new VotingSelection(false, ballotInitiative.Name, ballot.Id, ballotInitiative.Id));
       }  // End else This is a single option Initiative
     }  // End ballot initiatives loop
-  }  // End fetchBallotInitiatives
+  }  // End fetchBallotInitiatives method
 
   public class VotingSelection
   {

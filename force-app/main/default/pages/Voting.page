@@ -1,25 +1,29 @@
 <apex:page showHeader="false" controller="votingController" title="NBBA Election Voting System" >
   <h1>Welcome to the NBBA Election System</h1>
   <apex:outputPanel id="votingPageBody" >
-  <apex:outputPanel id="voterIdSearch" layout="block" rendered="{!isVoterIdSearchVisible}" >
-    <apex:form id="voterIdForm" >
+  <apex:outputPanel id="voterIdSearch" layout="block" >
+    <apex:form id="voterIdForm" rendered="{!isVoterIdSearchVisible}" >
       <apex:outputLabel for="voterIdInput" value="Voter Id: " />
       <apex:message for="voterIdInput" id="voterIdError" />
-      <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" autoFocus="true" />
+      <apex:inputText id="voterIdInput" value="{!pageVoterId}" required="True" html-autoFocus="true" />
       <br/><br/>
-      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPageBody" oncomplete="focusCurrentInitiative();" />
+      <apex:commandButton value="Continue" action="{!findBallot}"  rerender="votingPageBody" />
     </apex:form> 
   </apex:outputPanel>
-  <apex:outputPanel id="electionContainer" rendered="{!isElectionVisible}" layout="block" >
-      <h2 id="initiativeTitle" tabindex="-1" aria-describedby="initiativeDescription">{!ballotInitiativeTitle}</h2>
+  <apex:outputPanel id="electionContainer"  layout="block" >
+    <apex:form id="electionForm" rendered="{!isElectionVisible}" >
+      <h2 id="initiativeTitle" >{!ballotInitiativeTitle}</h2>
       <div aria-live="assertive" >
         <apex:messages id="votingErrorMessage" rendered="[!isVoteInError}" />
       </div>
+      <apex:selectList multiselect="false" label="Choose an initiative" value="{!selectedInitiative}" html-autoFocus="True" html-aria-describedby="initiativeDescription" >
+      <apex:selectOptions value="{!availableInitiatives}" />
+    </apex:selectList>  
+    <apex:commandButton value="Go!" action="{!skipToInitiative}" rerender="electionForm" />
       <p id="initiativeDescription">
         You may vote for up to {!votesAllowed} item(s)
       </p>
-      <apex:form id="electionForm" >
-        <apex:dataTable value="{!initiativeSelections}" var="selection" >
+          <apex:dataTable value="{!initiativeSelections}" var="selection" >
         <apex:column headerValue="Vote" >
           <apex:inputCheckbox value="{!selection.vote}" label="{!selection.voteTitle}" />
         </apex:column>
@@ -27,8 +31,8 @@
           <apex:outputText value="{!selection.voteTitle}" />
         </apex:column>
       </apex:dataTable>
-      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionContainer" value="<- Previous" oncomplete="focusCurrentInitiative();" /> 
-      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionContainer" value="Next ->" oncomplete="focusCurrentInitiative();" /> 
+      <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionForm" value="<- Previous" /> 
+      <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionForm" value="Next ->"  /> 
     </apex:form>
   </apex:outputPanel>
   <apex:outputPanel id="voteSubmission" layout="block" rendered="{!isVoteVerificationVisible}" >
