@@ -25,6 +25,7 @@ public String selectedInitiative { get;set; }
   {
     this.votingSelectionsByInitiativeId = new Map<Id, List<VotingSelection>>();  
     votesForSubmission = new List<Vote__c>();
+    availableInitiatives = new List<SelectOption>();
     isVoterIdSearchVisible = true;
     isElectionVisible = false;
     isVoteInError = false;
