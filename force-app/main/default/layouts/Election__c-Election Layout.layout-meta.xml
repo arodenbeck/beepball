@@ -55,14 +55,19 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
+        <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
+        <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Ballot__c.Election__c</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Ballot_Initiative__c.Election__c</relatedList>
@@ -72,4 +77,10 @@
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h21000001Fffb</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
