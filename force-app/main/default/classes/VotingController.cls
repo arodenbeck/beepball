@@ -30,7 +30,7 @@ public String selectedInitiative { get;set; }
     isElectionVisible = false;
     isVoteInError = false;
     ballotInitiativeTitle = '';
-    setFocusId = 'selectAvailableInitiatives';
+    setFocusId = 'initiativeTitle';
     String urlVoterId = ApexPages.currentPage().getParameters().get('voterId');
     if(!String.isBlank(urlVoterId))
     {
