@@ -55,7 +55,12 @@ public String selectedInitiative { get;set; }
   }  // End setFocusId getter method
   public Integer getVotesAllowed()
   {
-    return currentInitiative.Votes_Allowed__c.intValue();
+    Integer votesAllowed = currentInitiative.Votes_Allowed__c.intValue();
+    if(votesAllowed != null)
+    {
+      return votesAllowed;
+    }  // End if votesAllowed is not null
+    return 1;
   }  // End votesAllowed getter method
   public PageReference findBallot()
   {
