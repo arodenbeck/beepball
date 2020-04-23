@@ -33,7 +33,8 @@
       </apex:dataTable>
       <apex:commandButton action="{!renderPrevious}" disabled="{!isPreviousDisabled}" id="prevBtn" rerender="electionForm" value="<- Previous" oncomplete="focusCurrentInitiative();" /> 
       <apex:commandButton action="{!renderNext}" disabled="{!isNextDisabled}" id="nextBtn" rerender="electionForm" value="Next ->" onComplete="focusCurrentInitiative();" /> 
-    </apex:form>
+        <apex:commandButton action="{!displayVotes}" id="previewBtn" rerender="votingPageBody" value="Preview Ballot" /> 
+        </apex:form>
     <apex:form id="submissionForm" rendered="{!isVoteVerificationVisible}" >
       <apex:dataTable value="{!votesForSubmission}" var="vote" >
         <apex:column headerValue="Your Vote" >
