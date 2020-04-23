@@ -126,25 +126,29 @@ public String selectedInitiative { get;set; }
     {
       for(VotingSelection votingSelection : votingSelections)
       {
-        Vote__c newVote = new Vote__c();
-        newVote.Name = votingSelection.voteTitle;
-        newVote.Ballot_Id__c = votingSelection.ballotId;
-        newVote.Ballot_Initiative__c = votingSelection.ballotInitiativeId;
-        if(votingSelection.candidateId == null)
+        if(votingSelection.vote)
         {
-            newVote.Affirmative__c = votingSelection.Vote;
-        }  // End if voteSelection does not have a candidate assigned
-        else
-        {
-          newVote.Candidate__c = votingSelection.CandidateId;
-        }  // End else a candidate was assigned
-        votesForSubmission.add(newVote);
+          Vote__c newVote = new Vote__c();
+          newVote.Name = votingSelection.voteTitle;
+          newVote.Ballot_Id__c = votingSelection.ballotId;
+          newVote.Ballot_Initiative__c = votingSelection.ballotInitiativeId;
+          if(votingSelection.candidateId == null)
+          {
+              newVote.Affirmative__c = votingSelection.Vote;
+          }  // End if voteSelection does not have a candidate assigned
+          else
+          {
+            newVote.Candidate__c = votingSelection.CandidateId;
+          }  // End else a candidate was assigned
+          votesForSubmission.add(newVote);
+        }  // End if vote is true
       }  // End votingSelection loop
     }  // End VotingSelections list loop
     return null;
   }  // End displayVotes method
   private void validate(Integer intNextOrPrev)
   {
+    isVoteInError = false;
     Ballot_Initiative__c ballotInitiative = ballotInitiatives[intCurrentInitiative];
     Integer intNumChosenVotes = 0;
     String errorString = 'You may only check ' + ballotInitiative.Votes_Allowed__c + ' items.';
@@ -170,7 +174,7 @@ public String selectedInitiative { get;set; }
     {
     try 
     {
-      upsert votesForSubmission;
+      insert votesForSubmission;
     }  // End try to upsert
     catch(Exception e)
     {
