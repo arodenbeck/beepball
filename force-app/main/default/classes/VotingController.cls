@@ -94,6 +94,7 @@ public String selectedInitiative { get;set; }
     currentInitiative = ballotInitiatives[intCurrentInitiative];
     currentInitiativeId = currentInitiative.Id;
     ballotInitiativeTitle = currentInitiative.Name;
+    selectedInitiative = String.valueOf(intCurrentInitiative);
     if(intCurrentInitiative > 0)
     {
       isPreviousDisabled = false;
