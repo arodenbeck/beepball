@@ -146,7 +146,7 @@ public String selectedInitiative { get;set; }
     }  // End VotingSelections list loop
     return null;
   }  // End displayVotes method
-  private void validate(Integer intNextOrPrev)
+  private boolean validate(Integer intNextOrPrev)
   {
     isVoteInError = false;
     Ballot_Initiative__c ballotInitiative = ballotInitiatives[intCurrentInitiative];
@@ -164,14 +164,16 @@ public String selectedInitiative { get;set; }
     {
       isVoteInError = true;
       ApexPages.addMessage(voteErrorMessage);
+      return false;
     }  // End if intNumChosenVotes is greater than votes allowed
     else 
     {
       intCurrentInitiative += intNextOrPrev;
+      return true;
     }  // End else advance the page
   }  // End validate method
   public PageReference submitVote()
-    {
+  {
     try 
     {
       insert votesForSubmission;
@@ -181,7 +183,7 @@ public String selectedInitiative { get;set; }
 
     }  // End catch exception
     return null;
-    }  // End submitVote method
+  }  // End submitVote method
   private void fetchBallotInitiatives(Id electionId)
   {
     ballotInitiatives = [select Id,Name,Description__c,Election__c,Has_Selections__c,Number_of_Candidates__c,Votes_Allowed__c, 
