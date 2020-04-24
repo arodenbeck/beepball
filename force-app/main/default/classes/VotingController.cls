@@ -115,11 +115,19 @@ public String selectedInitiative { get;set; }
   }  // End renderCurrentInitiative method
   public PageReference skipToInitiative()
   {
+    if(!validate(0))
+    {
+      return renderCurrentInitiative();
+    }  // End if validate is not true
     intCurrentInitiative = Integer.valueOf(selectedInitiative);
     return renderCurrentInitiative();
   }  // End skipToInitiative method
   public PageReference displayVotes()
   {
+    if(!validate(0))
+    {
+      return renderCurrentInitiative();
+    }  // End if validate is not true
     isVoteVerificationVisible = true;
     isElectionVisible = false;
     for(List<VotingSelection> votingSelections : votingSelectionsByInitiativeId.values())
