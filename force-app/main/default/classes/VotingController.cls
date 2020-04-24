@@ -130,6 +130,7 @@ public String selectedInitiative { get;set; }
     }  // End if validate is not true
     isVoteVerificationVisible = true;
     isElectionVisible = false;
+    setFocusId = 'previewTitle';
     for(List<VotingSelection> votingSelections : votingSelectionsByInitiativeId.values())
     {
       for(VotingSelection votingSelection : votingSelections)
